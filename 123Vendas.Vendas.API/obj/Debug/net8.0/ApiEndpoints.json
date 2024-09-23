@@ -1,0 +1,108 @@
+[
+  {
+    "ContainingType": "_123Vendas.Vendas.API.Controllers.SalesController",
+    "Method": "CreateSale",
+    "RelativePath": "api/Sales",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sale",
+        "Type": "_123Vendas.Vendas.Data.Entity.Sale",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_123Vendas.Vendas.API.Controllers.SalesController",
+    "Method": "GetSale",
+    "RelativePath": "api/Sales/{saleNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "saleNumber",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_123Vendas.Vendas.API.Controllers.SalesController",
+    "Method": "UpdateSale",
+    "RelativePath": "api/Sales/{saleNumber}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "saleNumber",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "sale",
+        "Type": "_123Vendas.Vendas.Data.Entity.Sale",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_123Vendas.Vendas.API.Controllers.SalesController",
+    "Method": "DeleteSale",
+    "RelativePath": "api/Sales/{saleNumber}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "saleNumber",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_123Vendas.Vendas.API.Controllers.SalesController",
+    "Method": "CancelSale",
+    "RelativePath": "api/Sales/{saleNumber}/cancel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "saleNumber",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_123Vendas.Vendas.API.Controllers.SalesController",
+    "Method": "CancelSaleItem",
+    "RelativePath": "api/Sales/{saleNumber}/items/{productId}/cancel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "saleNumber",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "productId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

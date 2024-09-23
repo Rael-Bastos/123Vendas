@@ -1,0 +1,148 @@
+2024-09-23 00:03:49.909 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-23 00:03:50.729 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-23 00:03:51.125 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-23 00:03:51.126 -03:00 [INF] Criando venda com número "94b40635-f604-461a-a359-422ad2551216"
+2024-09-23 00:03:51.131 -03:00 [INF] Criando nova venda para o cliente e4235ad8-1aa8-4d60-9df1-9ae4e183a046
+2024-09-23 00:03:51.748 -03:00 [INF] Venda "94b40635-f604-461a-a359-422ad2551216" criada com sucesso
+2024-09-23 00:03:51.749 -03:00 [INF] Event: Sale Created. SaleId: "94b40635-f604-461a-a359-422ad2551216", Date: "2024-09-23T00:03:51.7485261-03:00", TotalAmount: 19.75
+2024-09-23 00:03:51.781 -03:00 [INF] Venda "94b40635-f604-461a-a359-422ad2551216" criada com sucesso
+2024-09-23 00:03:51.875 -03:00 [INF] HTTP POST /api/sales responded 201 in 1139.3054 ms
+2024-09-23 00:04:02.437 -03:00 [INF] Recebida requisição para cancelar item "d2feb411-a5a2-4d12-b34d-02aecc891974" da venda com número "94b40635-f604-461a-a359-422ad2551216"
+2024-09-23 00:04:11.246 -03:00 [INF] Cancelando item da venda com número "94b40635-f604-461a-a359-422ad2551216"
+2024-09-23 00:04:11.956 -03:00 [INF] Buscando a venda com número "94b40635-f604-461a-a359-422ad2551216"
+2024-09-23 00:04:21.171 -03:00 [WRN] Produto com ID "d2feb411-a5a2-4d12-b34d-02aecc891974" não encontrado na venda "94b40635-f604-461a-a359-422ad2551216"
+2024-09-23 00:06:09.903 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-23 00:06:10.409 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-23 00:06:10.584 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-23 00:06:10.586 -03:00 [INF] Criando venda com número "7633527e-82da-48ce-a56d-1b7d2536a467"
+2024-09-23 00:06:10.590 -03:00 [INF] Criando nova venda para o cliente 9561b454-2e6e-4a03-802e-6aa7b0a58419
+2024-09-23 00:06:11.202 -03:00 [INF] Venda "7633527e-82da-48ce-a56d-1b7d2536a467" criada com sucesso
+2024-09-23 00:06:11.203 -03:00 [INF] Event: Sale Created. SaleId: "7633527e-82da-48ce-a56d-1b7d2536a467", Date: "2024-09-23T00:06:11.2032431-03:00", TotalAmount: 47.10
+2024-09-23 00:06:11.204 -03:00 [INF] Venda "7633527e-82da-48ce-a56d-1b7d2536a467" criada com sucesso
+2024-09-23 00:06:11.236 -03:00 [INF] HTTP POST /api/sales responded 201 in 828.6630 ms
+2024-09-23 00:06:14.735 -03:00 [INF] Recebida requisição para cancelar item "268c97d0-022f-4aca-8661-8c51c8350280" da venda com número "7633527e-82da-48ce-a56d-1b7d2536a467"
+2024-09-23 00:06:17.841 -03:00 [INF] Cancelando item da venda com número "7633527e-82da-48ce-a56d-1b7d2536a467"
+2024-09-23 00:06:18.984 -03:00 [INF] Buscando a venda com número "7633527e-82da-48ce-a56d-1b7d2536a467"
+2024-09-23 00:06:23.589 -03:00 [INF] Atualizando venda "7633527e-82da-48ce-a56d-1b7d2536a467"
+2024-09-23 00:06:23.610 -03:00 [INF] Venda "7633527e-82da-48ce-a56d-1b7d2536a467" atualizada com sucesso
+2024-09-23 00:06:26.557 -03:00 [INF] Event: Item Canceled. SaleId: "7633527e-82da-48ce-a56d-1b7d2536a467", ItemId: "268c97d0-022f-4aca-8661-8c51c8350280", Product: Practical Metal Hat, Date: "2024-09-23T00:06:25.9724795-03:00"
+2024-09-23 00:06:27.438 -03:00 [INF] Item "268c97d0-022f-4aca-8661-8c51c8350280" da venda "7633527e-82da-48ce-a56d-1b7d2536a467" cancelado com sucesso
+2024-09-23 00:06:28.863 -03:00 [INF] Item "268c97d0-022f-4aca-8661-8c51c8350280" da venda "7633527e-82da-48ce-a56d-1b7d2536a467" cancelado com sucesso
+2024-09-23 00:06:30.277 -03:00 [INF] HTTP POST /api/sales/7633527e-82da-48ce-a56d-1b7d2536a467/items/268c97d0-022f-4aca-8661-8c51c8350280/cancel responded 200 in 19013.8658 ms
+2024-09-23 00:06:59.542 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-23 00:06:59.679 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-23 00:06:59.780 -03:00 [INF] Recebida requisição para cancelar venda com número "231a96e6-1fc8-40ac-9cca-e6be9311f34f"
+2024-09-23 00:06:59.783 -03:00 [INF] Cancelando venda com número "231a96e6-1fc8-40ac-9cca-e6be9311f34f"
+2024-09-23 00:06:59.785 -03:00 [INF] Buscando a venda com número "231a96e6-1fc8-40ac-9cca-e6be9311f34f"
+2024-09-23 00:07:00.285 -03:00 [WRN] Venda com número "231a96e6-1fc8-40ac-9cca-e6be9311f34f" não foi encontrada
+2024-09-23 00:07:00.285 -03:00 [WRN] Venda com número "231a96e6-1fc8-40ac-9cca-e6be9311f34f" não encontrada para cancelamento
+2024-09-23 00:07:00.286 -03:00 [WRN] Erro ao cancelar venda com número "231a96e6-1fc8-40ac-9cca-e6be9311f34f"
+System.InvalidOperationException: Venda com número 231a96e6-1fc8-40ac-9cca-e6be9311f34f não encontrada.
+   at _123Vendas.Vendas.Service.Services.SalesService.CancelSaleAsync(Guid saleNumber) in C:\Projetos\123Vendas\123Vendas.Vendas.Service\Services\SalesService.cs:line 88
+   at _123Vendas.Vendas.API.Controllers.SalesController.CancelSale(Guid saleNumber) in C:\Projetos\123Vendas\123Vendas.Vendas.API\Controllers\SalesController.cs:line 73
+2024-09-23 00:07:00.321 -03:00 [INF] HTTP POST /api/sales/231a96e6-1fc8-40ac-9cca-e6be9311f34f/cancel responded 404 in 641.0131 ms
+2024-09-23 00:07:00.454 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-23 00:07:00.455 -03:00 [INF] Criando venda com número "1bbbdd76-b7d3-4115-97a9-71af2cff4302"
+2024-09-23 00:07:00.456 -03:00 [INF] Criando nova venda para o cliente d9ec4f58-9c45-4bdb-865b-e95476622b88
+2024-09-23 00:07:00.584 -03:00 [INF] Venda "1bbbdd76-b7d3-4115-97a9-71af2cff4302" criada com sucesso
+2024-09-23 00:07:00.585 -03:00 [INF] Event: Sale Created. SaleId: "1bbbdd76-b7d3-4115-97a9-71af2cff4302", Date: "2024-09-23T00:07:00.5847990-03:00", TotalAmount: 9.86
+2024-09-23 00:07:00.586 -03:00 [INF] Venda "1bbbdd76-b7d3-4115-97a9-71af2cff4302" criada com sucesso
+2024-09-23 00:07:00.603 -03:00 [INF] HTTP POST /api/sales responded 201 in 181.0747 ms
+2024-09-23 00:07:00.628 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-23 00:07:00.628 -03:00 [INF] Criando venda com número "fee84948-ae96-472c-b92c-54642ec1b2d7"
+2024-09-23 00:07:00.629 -03:00 [INF] Criando nova venda para o cliente 3560a76f-3933-46df-805d-f9e90b622728
+2024-09-23 00:07:00.670 -03:00 [INF] Venda "fee84948-ae96-472c-b92c-54642ec1b2d7" criada com sucesso
+2024-09-23 00:07:00.671 -03:00 [INF] Event: Sale Created. SaleId: "fee84948-ae96-472c-b92c-54642ec1b2d7", Date: "2024-09-23T00:07:00.6709614-03:00", TotalAmount: 46.00
+2024-09-23 00:07:00.671 -03:00 [INF] Venda "fee84948-ae96-472c-b92c-54642ec1b2d7" criada com sucesso
+2024-09-23 00:07:00.672 -03:00 [INF] HTTP POST /api/sales responded 201 in 47.7734 ms
+2024-09-23 00:07:00.695 -03:00 [INF] HTTP PUT /api/sales/fee84948-ae96-472c-b92c-54642ec1b2d7 responded 400 in 21.9798 ms
+2024-09-23 00:07:00.704 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-23 00:07:00.704 -03:00 [INF] Criando venda com número "48aacde2-9650-4aa4-b59a-827f867f6bea"
+2024-09-23 00:07:00.704 -03:00 [INF] Criando nova venda para o cliente c55b6873-ce84-458e-b5d1-af13c8754fae
+2024-09-23 00:07:00.705 -03:00 [INF] Venda "48aacde2-9650-4aa4-b59a-827f867f6bea" criada com sucesso
+2024-09-23 00:07:00.705 -03:00 [INF] Event: Sale Created. SaleId: "48aacde2-9650-4aa4-b59a-827f867f6bea", Date: "2024-09-23T00:07:00.7057902-03:00", TotalAmount: 82.83
+2024-09-23 00:07:00.705 -03:00 [INF] Venda "48aacde2-9650-4aa4-b59a-827f867f6bea" criada com sucesso
+2024-09-23 00:07:00.706 -03:00 [INF] HTTP POST /api/sales responded 201 in 2.9437 ms
+2024-09-23 00:07:00.710 -03:00 [INF] Recebida requisição para obter a venda "48aacde2-9650-4aa4-b59a-827f867f6bea"
+2024-09-23 00:07:00.711 -03:00 [INF] Buscando venda com número "48aacde2-9650-4aa4-b59a-827f867f6bea"
+2024-09-23 00:07:00.711 -03:00 [INF] Buscando a venda com número "48aacde2-9650-4aa4-b59a-827f867f6bea"
+2024-09-23 00:07:00.723 -03:00 [INF] Venda "48aacde2-9650-4aa4-b59a-827f867f6bea" encontrada com sucesso
+2024-09-23 00:07:00.723 -03:00 [INF] HTTP GET /api/sales/48aacde2-9650-4aa4-b59a-827f867f6bea responded 200 in 15.6170 ms
+2024-09-23 00:07:00.729 -03:00 [INF] Recebida requisição para obter a venda "0d6905ef-dd41-4eb4-8e23-860f3527989c"
+2024-09-23 00:07:00.729 -03:00 [INF] Buscando venda com número "0d6905ef-dd41-4eb4-8e23-860f3527989c"
+2024-09-23 00:07:00.730 -03:00 [INF] Buscando a venda com número "0d6905ef-dd41-4eb4-8e23-860f3527989c"
+2024-09-23 00:07:00.730 -03:00 [WRN] Venda com número "0d6905ef-dd41-4eb4-8e23-860f3527989c" não foi encontrada
+2024-09-23 00:07:00.730 -03:00 [WRN] Venda com número "0d6905ef-dd41-4eb4-8e23-860f3527989c" não encontrada
+2024-09-23 00:07:00.730 -03:00 [WRN] Venda "0d6905ef-dd41-4eb4-8e23-860f3527989c" não encontrada
+2024-09-23 00:07:00.731 -03:00 [INF] HTTP GET /api/sales/0d6905ef-dd41-4eb4-8e23-860f3527989c responded 404 in 2.3570 ms
+2024-09-23 00:07:00.744 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-23 00:07:00.744 -03:00 [INF] Criando venda com número "761e52e3-ad8f-43e7-b114-2cdac5393d27"
+2024-09-23 00:07:00.744 -03:00 [INF] Criando nova venda para o cliente 6e916db1-0808-4492-94c0-cdfc1f33c2b1
+2024-09-23 00:07:00.745 -03:00 [INF] Venda "761e52e3-ad8f-43e7-b114-2cdac5393d27" criada com sucesso
+2024-09-23 00:07:00.745 -03:00 [INF] Event: Sale Created. SaleId: "761e52e3-ad8f-43e7-b114-2cdac5393d27", Date: "2024-09-23T00:07:00.7453315-03:00", TotalAmount: 43.79
+2024-09-23 00:07:00.745 -03:00 [INF] Venda "761e52e3-ad8f-43e7-b114-2cdac5393d27" criada com sucesso
+2024-09-23 00:07:00.746 -03:00 [INF] HTTP POST /api/sales responded 201 in 2.2914 ms
+2024-09-23 00:07:00.750 -03:00 [INF] Recebida requisição para cancelar item "0171544f-afa5-4947-9b9b-01a090ba42d8" da venda com número "761e52e3-ad8f-43e7-b114-2cdac5393d27"
+2024-09-23 00:07:00.752 -03:00 [INF] Cancelando item da venda com número "761e52e3-ad8f-43e7-b114-2cdac5393d27"
+2024-09-23 00:07:00.752 -03:00 [INF] Buscando a venda com número "761e52e3-ad8f-43e7-b114-2cdac5393d27"
+2024-09-23 00:07:00.753 -03:00 [INF] Atualizando venda "761e52e3-ad8f-43e7-b114-2cdac5393d27"
+2024-09-23 00:07:00.762 -03:00 [INF] Venda "761e52e3-ad8f-43e7-b114-2cdac5393d27" atualizada com sucesso
+2024-09-23 00:07:00.762 -03:00 [INF] Event: Item Canceled. SaleId: "761e52e3-ad8f-43e7-b114-2cdac5393d27", ItemId: "0171544f-afa5-4947-9b9b-01a090ba42d8", Product: Incredible Fresh Soap, Date: "2024-09-23T00:07:00.7624272-03:00"
+2024-09-23 00:07:00.762 -03:00 [INF] Item "0171544f-afa5-4947-9b9b-01a090ba42d8" da venda "761e52e3-ad8f-43e7-b114-2cdac5393d27" cancelado com sucesso
+2024-09-23 00:07:00.762 -03:00 [INF] Item "0171544f-afa5-4947-9b9b-01a090ba42d8" da venda "761e52e3-ad8f-43e7-b114-2cdac5393d27" cancelado com sucesso
+2024-09-23 00:07:00.763 -03:00 [INF] HTTP POST /api/sales/761e52e3-ad8f-43e7-b114-2cdac5393d27/items/0171544f-afa5-4947-9b9b-01a090ba42d8/cancel responded 200 in 15.2742 ms
+2024-09-23 00:07:00.769 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-23 00:07:00.770 -03:00 [INF] Criando venda com número "bcb2d64e-8977-49f9-9919-ca44434193dc"
+2024-09-23 00:07:00.770 -03:00 [INF] Criando nova venda para o cliente a92946ff-248c-404a-a93c-7e908895e1ee
+2024-09-23 00:07:00.771 -03:00 [INF] Venda "bcb2d64e-8977-49f9-9919-ca44434193dc" criada com sucesso
+2024-09-23 00:07:00.771 -03:00 [INF] Event: Sale Created. SaleId: "bcb2d64e-8977-49f9-9919-ca44434193dc", Date: "2024-09-23T00:07:00.7711207-03:00", TotalAmount: 44.84
+2024-09-23 00:07:00.771 -03:00 [INF] Venda "bcb2d64e-8977-49f9-9919-ca44434193dc" criada com sucesso
+2024-09-23 00:07:00.772 -03:00 [INF] HTTP POST /api/sales responded 201 in 2.7262 ms
+2024-09-23 00:07:00.773 -03:00 [INF] Recebida requisição para cancelar venda com número "bcb2d64e-8977-49f9-9919-ca44434193dc"
+2024-09-23 00:07:00.773 -03:00 [INF] Cancelando venda com número "bcb2d64e-8977-49f9-9919-ca44434193dc"
+2024-09-23 00:07:00.773 -03:00 [INF] Buscando a venda com número "bcb2d64e-8977-49f9-9919-ca44434193dc"
+2024-09-23 00:07:00.774 -03:00 [INF] Atualizando venda "bcb2d64e-8977-49f9-9919-ca44434193dc"
+2024-09-23 00:07:00.774 -03:00 [INF] Venda "bcb2d64e-8977-49f9-9919-ca44434193dc" atualizada com sucesso
+2024-09-23 00:07:00.774 -03:00 [INF] Event: Sale Canceled. SaleId: "bcb2d64e-8977-49f9-9919-ca44434193dc", Date: "2024-09-23T00:07:00.7745890-03:00"
+2024-09-23 00:07:00.774 -03:00 [INF] Venda "bcb2d64e-8977-49f9-9919-ca44434193dc" cancelada com sucesso
+2024-09-23 00:07:00.774 -03:00 [INF] Venda "bcb2d64e-8977-49f9-9919-ca44434193dc" cancelada com sucesso
+2024-09-23 00:07:00.775 -03:00 [INF] HTTP POST /api/sales/bcb2d64e-8977-49f9-9919-ca44434193dc/cancel responded 200 in 2.0690 ms
+2024-09-23 00:07:00.781 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-23 00:07:00.781 -03:00 [INF] Criando venda com número "40c42925-86dc-48bd-9374-a2464aa17df5"
+2024-09-23 00:07:00.781 -03:00 [INF] Criando nova venda para o cliente 08a7d69a-ba7b-49f4-b014-17ae841a1ea9
+2024-09-23 00:07:00.781 -03:00 [INF] Venda "40c42925-86dc-48bd-9374-a2464aa17df5" criada com sucesso
+2024-09-23 00:07:00.781 -03:00 [INF] Event: Sale Created. SaleId: "40c42925-86dc-48bd-9374-a2464aa17df5", Date: "2024-09-23T00:07:00.7819660-03:00", TotalAmount: 50.38
+2024-09-23 00:07:00.782 -03:00 [INF] Venda "40c42925-86dc-48bd-9374-a2464aa17df5" criada com sucesso
+2024-09-23 00:07:00.782 -03:00 [INF] HTTP POST /api/sales responded 201 in 1.7463 ms
+2024-09-23 00:07:00.786 -03:00 [INF] Recebida requisição para deletar a venda "40c42925-86dc-48bd-9374-a2464aa17df5"
+2024-09-23 00:07:00.787 -03:00 [INF] Deletando venda com número "40c42925-86dc-48bd-9374-a2464aa17df5"
+2024-09-23 00:07:00.787 -03:00 [INF] Buscando a venda com número "40c42925-86dc-48bd-9374-a2464aa17df5"
+2024-09-23 00:07:00.789 -03:00 [INF] Buscando a venda com número "40c42925-86dc-48bd-9374-a2464aa17df5"
+2024-09-23 00:07:00.789 -03:00 [INF] Deletando venda "40c42925-86dc-48bd-9374-a2464aa17df5"
+2024-09-23 00:07:00.796 -03:00 [INF] Venda "40c42925-86dc-48bd-9374-a2464aa17df5" deletada com sucesso
+2024-09-23 00:07:00.796 -03:00 [INF] Venda "40c42925-86dc-48bd-9374-a2464aa17df5" deletada com sucesso
+2024-09-23 00:07:00.797 -03:00 [INF] HTTP DELETE /api/sales/40c42925-86dc-48bd-9374-a2464aa17df5 responded 204 in 13.4776 ms
+2024-09-23 00:07:00.815 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-23 00:07:00.815 -03:00 [INF] Criando venda com número "d20c606a-3dd6-4717-9048-90473bbcf3b1"
+2024-09-23 00:07:00.815 -03:00 [INF] Criando nova venda para o cliente 8ca80db8-c02f-43a9-bf43-8c83a18ce964
+2024-09-23 00:07:00.815 -03:00 [INF] Venda "d20c606a-3dd6-4717-9048-90473bbcf3b1" criada com sucesso
+2024-09-23 00:07:00.815 -03:00 [INF] Event: Sale Created. SaleId: "d20c606a-3dd6-4717-9048-90473bbcf3b1", Date: "2024-09-23T00:07:00.8159099-03:00", TotalAmount: 45.08
+2024-09-23 00:07:00.815 -03:00 [INF] Venda "d20c606a-3dd6-4717-9048-90473bbcf3b1" criada com sucesso
+2024-09-23 00:07:00.816 -03:00 [INF] HTTP POST /api/sales responded 201 in 1.8599 ms
+2024-09-23 00:07:00.818 -03:00 [INF] Recebida requisição para atualizar a venda "d20c606a-3dd6-4717-9048-90473bbcf3b1"
+2024-09-23 00:07:00.819 -03:00 [INF] Atualizando venda com número "d20c606a-3dd6-4717-9048-90473bbcf3b1"
+2024-09-23 00:07:00.819 -03:00 [INF] Atualizando venda "d20c606a-3dd6-4717-9048-90473bbcf3b1"
+2024-09-23 00:07:00.819 -03:00 [INF] Venda "d20c606a-3dd6-4717-9048-90473bbcf3b1" atualizada com sucesso
+2024-09-23 00:07:00.820 -03:00 [INF] Event: Sale Updated. SaleId: "d20c606a-3dd6-4717-9048-90473bbcf3b1", Date: "2024-09-23T00:07:00.8203025-03:00", New Total: 39.10
+2024-09-23 00:07:00.820 -03:00 [INF] Venda "d20c606a-3dd6-4717-9048-90473bbcf3b1" atualizada com sucesso
+2024-09-23 00:07:00.821 -03:00 [INF] HTTP PUT /api/sales/d20c606a-3dd6-4717-9048-90473bbcf3b1 responded 204 in 3.1625 ms
+2024-09-23 00:07:00.827 -03:00 [INF] Recebida requisição para cancelar item "1dd40dc1-dbc5-46d0-a951-b813648ae2b5" da venda com número "a0877e68-d7f0-47bb-8e9e-3671e0536ec4"
+2024-09-23 00:07:00.827 -03:00 [INF] Cancelando item da venda com número "a0877e68-d7f0-47bb-8e9e-3671e0536ec4"
+2024-09-23 00:07:00.827 -03:00 [INF] Buscando a venda com número "a0877e68-d7f0-47bb-8e9e-3671e0536ec4"
+2024-09-23 00:07:00.827 -03:00 [WRN] Venda com número "a0877e68-d7f0-47bb-8e9e-3671e0536ec4" não foi encontrada
+2024-09-23 00:07:00.828 -03:00 [WRN] Venda com número "a0877e68-d7f0-47bb-8e9e-3671e0536ec4" não encontrada para cancelamento de item
+2024-09-23 00:07:00.828 -03:00 [WRN] Erro ao cancelar item "1dd40dc1-dbc5-46d0-a951-b813648ae2b5" da venda "a0877e68-d7f0-47bb-8e9e-3671e0536ec4"
+System.InvalidOperationException: Venda com número a0877e68-d7f0-47bb-8e9e-3671e0536ec4 não encontrada.
+   at _123Vendas.Vendas.Service.Services.SalesService.CancelSaleItemAsync(Guid saleNumber, Guid productId) in C:\Projetos\123Vendas\123Vendas.Vendas.Service\Services\SalesService.cs:line 108
+   at _123Vendas.Vendas.API.Controllers.SalesController.CancelSaleItem(Guid saleNumber, Guid productId) in C:\Projetos\123Vendas\123Vendas.Vendas.API\Controllers\SalesController.cs:line 96
+2024-09-23 00:07:00.832 -03:00 [INF] HTTP POST /api/sales/a0877e68-d7f0-47bb-8e9e-3671e0536ec4/items/1dd40dc1-dbc5-46d0-a951-b813648ae2b5/cancel responded 404 in 5.2204 ms

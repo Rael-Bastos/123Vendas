@@ -1,0 +1,378 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projetos\\123Vendas.Vendas.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12B2DCD1-C481-4B41-BE0E-4943D0139695}|..\\123Vendas.Vendas.API.Tests\\123Vendas.Vendas.API.Tests.csproj|c:\\projetos\\123vendas.vendas.api.tests\\controllers\\salescontrollerintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B2DCD1-C481-4B41-BE0E-4943D0139695}|..\\123Vendas.Vendas.API.Tests\\123Vendas.Vendas.API.Tests.csproj|c:\\projetos\\123vendas.vendas.api.tests\\123vendas.vendas.api.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B2DCD1-C481-4B41-BE0E-4943D0139695}|..\\123Vendas.Vendas.API.Tests\\123Vendas.Vendas.API.Tests.csproj|c:\\projetos\\123vendas.vendas.api.tests\\controllers\\salescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A97534-653E-4FEE-9BFE-CDCBCE1DFA68}|123Vendas.Vendas.API.csproj|C:\\Projetos\\123Vendas.Vendas.API\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A97534-653E-4FEE-9BFE-CDCBCE1DFA68}|123Vendas.Vendas.API.csproj|solutionrelative:controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A97534-653E-4FEE-9BFE-CDCBCE1DFA68}|123Vendas.Vendas.API.csproj|C:\\Projetos\\123Vendas.Vendas.API\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A97534-653E-4FEE-9BFE-CDCBCE1DFA68}|123Vendas.Vendas.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF5BDD8-4205-4762-A6E5-38156983684D}|..\\123Vendas.Vendas.IoC\\123Vendas.Vendas.IoC.csproj|c:\\projetos\\123vendas.vendas.ioc\\123vendas.vendas.ioc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B2D3D49-BFD5-43AD-8BC9-29868D444042}|..\\123Vendas.Vendas.Data\\123Vendas.Vendas.Data.csproj|c:\\projetos\\123vendas.vendas.data\\migrations\\20240922233053_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B2D3D49-BFD5-43AD-8BC9-29868D444042}|..\\123Vendas.Vendas.Data\\123Vendas.Vendas.Data.csproj|c:\\projetos\\123vendas.vendas.data\\migrations\\salesdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A97534-653E-4FEE-9BFE-CDCBCE1DFA68}|123Vendas.Vendas.API.csproj|C:\\Projetos\\123Vendas.Vendas.API\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44A97534-653E-4FEE-9BFE-CDCBCE1DFA68}|123Vendas.Vendas.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2B0914-2748-43BF-B053-F6871EFE3B6F}|..\\123Vendas.Vendas.Infra\\123Vendas.Vendas.Domain.csproj|c:\\projetos\\123vendas.vendas.infra\\123vendas.vendas.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A97534-653E-4FEE-9BFE-CDCBCE1DFA68}|123Vendas.Vendas.API.csproj|C:\\Projetos\\123Vendas.Vendas.API\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44A97534-653E-4FEE-9BFE-CDCBCE1DFA68}|123Vendas.Vendas.API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A97534-653E-4FEE-9BFE-CDCBCE1DFA68}|123Vendas.Vendas.API.csproj|C:\\Projetos\\123Vendas.Vendas.API\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44A97534-653E-4FEE-9BFE-CDCBCE1DFA68}|123Vendas.Vendas.API.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF5BDD8-4205-4762-A6E5-38156983684D}|..\\123Vendas.Vendas.IoC\\123Vendas.Vendas.IoC.csproj|c:\\projetos\\123vendas.vendas.ioc\\servicecollectionsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D663A6F6-765E-4814-9C7A-F21D4BD04707}|..\\123Vendas.Vendas.Service\\123Vendas.Vendas.Service.csproj|c:\\projetos\\123vendas.vendas.service\\events\\eventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B2D3D49-BFD5-43AD-8BC9-29868D444042}|..\\123Vendas.Vendas.Data\\123Vendas.Vendas.Data.csproj|c:\\projetos\\123vendas.vendas.data\\context\\salesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D663A6F6-765E-4814-9C7A-F21D4BD04707}|..\\123Vendas.Vendas.Service\\123Vendas.Vendas.Service.csproj|c:\\projetos\\123vendas.vendas.service\\services\\salesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2B0914-2748-43BF-B053-F6871EFE3B6F}|..\\123Vendas.Vendas.Infra\\123Vendas.Vendas.Domain.csproj|c:\\projetos\\123vendas.vendas.infra\\interface\\service\\isalesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2B0914-2748-43BF-B053-F6871EFE3B6F}|..\\123Vendas.Vendas.Infra\\123Vendas.Vendas.Domain.csproj|c:\\projetos\\123vendas.vendas.infra\\entity\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2B0914-2748-43BF-B053-F6871EFE3B6F}|..\\123Vendas.Vendas.Infra\\123Vendas.Vendas.Domain.csproj|c:\\projetos\\123vendas.vendas.infra\\entity\\saleitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D663A6F6-765E-4814-9C7A-F21D4BD04707}|..\\123Vendas.Vendas.Service\\123Vendas.Vendas.Service.csproj|c:\\projetos\\123vendas.vendas.service\\123vendas.vendas.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2B0914-2748-43BF-B053-F6871EFE3B6F}|..\\123Vendas.Vendas.Infra\\123Vendas.Vendas.Domain.csproj|c:\\projetos\\123vendas.vendas.infra\\interface\\events\\ieventpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A97534-653E-4FEE-9BFE-CDCBCE1DFA68}|123Vendas.Vendas.API.csproj|C:\\Projetos\\123Vendas.Vendas.API\\123vendas.vendas.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{44A97534-653E-4FEE-9BFE-CDCBCE1DFA68}|123Vendas.Vendas.API.csproj|solutionrelative:123vendas.vendas.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SalesControllerIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.API.Tests\\Controllers\\SalesControllerIntegrationTests.cs",
+              "RelativeDocumentMoniker": "..\\123Vendas.Vendas.API.Tests\\Controllers\\SalesControllerIntegrationTests.cs",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.API.Tests\\Controllers\\SalesControllerIntegrationTests.cs",
+              "RelativeToolTip": "..\\123Vendas.Vendas.API.Tests\\Controllers\\SalesControllerIntegrationTests.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAcwIEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T00:07:23.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "123Vendas.Vendas.API.Tests.csproj",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.API.Tests\\123Vendas.Vendas.API.Tests.csproj",
+              "RelativeDocumentMoniker": "..\\123Vendas.Vendas.API.Tests\\123Vendas.Vendas.API.Tests.csproj",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.API.Tests\\123Vendas.Vendas.API.Tests.csproj*",
+              "RelativeToolTip": "..\\123Vendas.Vendas.API.Tests\\123Vendas.Vendas.API.Tests.csproj*",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-23T00:15:14.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SalesControllerTests.cs",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.API.Tests\\Controllers\\SalesControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\123Vendas.Vendas.API.Tests\\Controllers\\SalesControllerTests.cs",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.API.Tests\\Controllers\\SalesControllerTests.cs",
+              "RelativeToolTip": "..\\123Vendas.Vendas.API.Tests\\Controllers\\SalesControllerTests.cs",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAxwN0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:49:12.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.API\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SalesController.cs",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.API\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "Controllers\\SalesController.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAMwG0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T21:37:01.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240922233053_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.Data\\Migrations\\20240922233053_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\123Vendas.Vendas.Data\\Migrations\\20240922233053_InitialCreate.cs",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.Data\\Migrations\\20240922233053_InitialCreate.cs",
+              "RelativeToolTip": "..\\123Vendas.Vendas.Data\\Migrations\\20240922233053_InitialCreate.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAQwDwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:32:32.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "123Vendas.Vendas.IoC.csproj",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.IoC\\123Vendas.Vendas.IoC.csproj",
+              "RelativeDocumentMoniker": "..\\123Vendas.Vendas.IoC\\123Vendas.Vendas.IoC.csproj",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.IoC\\123Vendas.Vendas.IoC.csproj",
+              "RelativeToolTip": "..\\123Vendas.Vendas.IoC\\123Vendas.Vendas.IoC.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-22T18:54:01.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T18:31:56.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SalesDbContext.cs",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.Data\\Context\\SalesDbContext.cs",
+              "RelativeDocumentMoniker": "..\\123Vendas.Vendas.Data\\Context\\SalesDbContext.cs",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.Data\\Context\\SalesDbContext.cs",
+              "RelativeToolTip": "..\\123Vendas.Vendas.Data\\Context\\SalesDbContext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAwwAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T18:39:19.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-22T23:21:30.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-22T23:22:06.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SalesDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.Data\\Migrations\\SalesDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "..\\123Vendas.Vendas.Data\\Migrations\\SalesDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.Data\\Migrations\\SalesDbContextModelSnapshot.cs",
+              "RelativeToolTip": "..\\123Vendas.Vendas.Data\\Migrations\\SalesDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T23:36:18.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "123Vendas.Vendas.Domain.csproj",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.Infra\\123Vendas.Vendas.Domain.csproj",
+              "RelativeDocumentMoniker": "..\\123Vendas.Vendas.Infra\\123Vendas.Vendas.Domain.csproj",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.Infra\\123Vendas.Vendas.Domain.csproj",
+              "RelativeToolTip": "..\\123Vendas.Vendas.Infra\\123Vendas.Vendas.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-22T18:21:26.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ServiceCollectionsExtensions.cs",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.IoC\\ServiceCollectionsExtensions.cs",
+              "RelativeDocumentMoniker": "..\\123Vendas.Vendas.IoC\\ServiceCollectionsExtensions.cs",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.IoC\\ServiceCollectionsExtensions.cs",
+              "RelativeToolTip": "..\\123Vendas.Vendas.IoC\\ServiceCollectionsExtensions.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwBMAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T18:50:21.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.API\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-22T19:04:49.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EventPublisher.cs",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.Service\\Events\\EventPublisher.cs",
+              "RelativeDocumentMoniker": "..\\123Vendas.Vendas.Service\\Events\\EventPublisher.cs",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.Service\\Events\\EventPublisher.cs",
+              "RelativeToolTip": "..\\123Vendas.Vendas.Service\\Events\\EventPublisher.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAiwAwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T22:27:04.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SalesService.cs",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.Service\\Services\\SalesService.cs",
+              "RelativeDocumentMoniker": "..\\123Vendas.Vendas.Service\\Services\\SalesService.cs",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.Service\\Services\\SalesService.cs",
+              "RelativeToolTip": "..\\123Vendas.Vendas.Service\\Services\\SalesService.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAYwIMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T22:10:14.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ISalesService.cs",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.Infra\\Interface\\Service\\ISalesService.cs",
+              "RelativeDocumentMoniker": "..\\123Vendas.Vendas.Infra\\Interface\\Service\\ISalesService.cs",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.Infra\\Interface\\Service\\ISalesService.cs",
+              "RelativeToolTip": "..\\123Vendas.Vendas.Infra\\Interface\\Service\\ISalesService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T22:13:34.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.Infra\\Entity\\Sale.cs",
+              "RelativeDocumentMoniker": "..\\123Vendas.Vendas.Infra\\Entity\\Sale.cs",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.Infra\\Entity\\Sale.cs",
+              "RelativeToolTip": "..\\123Vendas.Vendas.Infra\\Entity\\Sale.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T22:33:50.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SaleItem.cs",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.Infra\\Entity\\SaleItem.cs",
+              "RelativeDocumentMoniker": "..\\123Vendas.Vendas.Infra\\Entity\\SaleItem.cs",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.Infra\\Entity\\SaleItem.cs",
+              "RelativeToolTip": "..\\123Vendas.Vendas.Infra\\Entity\\SaleItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T22:47:03.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "123Vendas.Vendas.Service.csproj",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.Service\\123Vendas.Vendas.Service.csproj",
+              "RelativeDocumentMoniker": "..\\123Vendas.Vendas.Service\\123Vendas.Vendas.Service.csproj",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.Service\\123Vendas.Vendas.Service.csproj",
+              "RelativeToolTip": "..\\123Vendas.Vendas.Service\\123Vendas.Vendas.Service.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-22T22:09:43.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IEventPublisher.cs",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.Infra\\Interface\\Events\\IEventPublisher.cs",
+              "RelativeDocumentMoniker": "..\\123Vendas.Vendas.Infra\\Interface\\Events\\IEventPublisher.cs",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.Infra\\Interface\\Events\\IEventPublisher.cs",
+              "RelativeToolTip": "..\\123Vendas.Vendas.Infra\\Interface\\Events\\IEventPublisher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T22:06:56.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "123Vendas.Vendas.API.http",
+              "DocumentMoniker": "C:\\Projetos\\123Vendas.Vendas.API\\123Vendas.Vendas.API.http",
+              "RelativeDocumentMoniker": "123Vendas.Vendas.API.http",
+              "ToolTip": "C:\\Projetos\\123Vendas.Vendas.API\\123Vendas.Vendas.API.http",
+              "RelativeToolTip": "123Vendas.Vendas.API.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-09-22T21:12:59.584Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

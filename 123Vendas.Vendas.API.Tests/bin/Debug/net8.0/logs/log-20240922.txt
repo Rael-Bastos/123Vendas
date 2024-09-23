@@ -1,0 +1,1279 @@
+2024-09-22 23:08:19.281 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-22 23:08:25.276 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-22 23:08:25.311 -03:00 [ERR] HTTP POST /api/sales/60e3709e-092c-4146-8f41-5e49f80cc73a/cancel responded 500 in 37.2966 ms
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method105(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:08:25.329 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method105(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 23:08:29.659 -03:00 [ERR] HTTP POST /api/sales responded 500 in 5.1504 ms
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method130(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:08:29.660 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method130(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 23:08:34.635 -03:00 [ERR] HTTP POST /api/sales responded 500 in 3.0672 ms
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method130(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:08:34.636 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method130(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 23:08:34.666 -03:00 [ERR] HTTP PUT /api/sales/c04dca51-da8d-437f-bf2f-b7c89ee66510 responded 500 in 5.7948 ms
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method138(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:08:34.668 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method138(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 23:08:37.219 -03:00 [ERR] HTTP POST /api/sales responded 500 in 5.7184 ms
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method130(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:08:37.220 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method130(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 23:08:37.248 -03:00 [ERR] HTTP GET /api/sales/be8a8b32-da54-45d5-adda-6a5f7675bbab responded 500 in 3.8356 ms
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method146(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:08:37.250 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method146(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 23:08:38.485 -03:00 [ERR] HTTP GET /api/sales/7e8f6b2d-d0d1-424c-bd0b-768c0d705634 responded 500 in 5.7874 ms
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method146(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:08:38.487 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method146(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 23:08:39.100 -03:00 [ERR] HTTP POST /api/sales responded 500 in 5.0682 ms
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method130(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:08:39.104 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method130(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 23:08:39.139 -03:00 [ERR] HTTP POST /api/sales/0cc762a3-cc10-4eb4-8fd9-23cec95a084b/items/7bd48514-1bdf-4051-be33-bf1d71a8600b/cancel responded 500 in 3.8204 ms
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method154(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:08:39.140 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method154(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 23:08:40.102 -03:00 [ERR] HTTP POST /api/sales responded 500 in 5.8031 ms
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method130(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:08:40.103 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method130(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 23:08:40.134 -03:00 [ERR] HTTP POST /api/sales/1444ee64-6976-4403-ad04-552c7c0f173e/cancel responded 500 in 2.8669 ms
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method105(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:08:40.135 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method105(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 23:08:40.569 -03:00 [ERR] HTTP POST /api/sales responded 500 in 5.5037 ms
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method130(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:08:40.573 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method130(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 23:08:40.604 -03:00 [ERR] HTTP DELETE /api/sales/8bc9e57b-453a-48e3-bc85-9058c52f44ce responded 500 in 6.2426 ms
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method162(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:08:40.605 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method162(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 23:08:41.107 -03:00 [ERR] HTTP POST /api/sales responded 500 in 6.7140 ms
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method130(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:08:41.109 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method130(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 23:08:41.173 -03:00 [ERR] HTTP PUT /api/sales/84d3853b-3afb-43c8-ab9f-e058d1621e70 responded 500 in 3.9164 ms
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method138(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:08:41.175 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method138(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 23:08:41.704 -03:00 [ERR] HTTP POST /api/sales/e3a628fe-fbbe-4fdd-99fd-944006915028/items/8399f268-f0dd-464d-8418-ad5afdeea862/cancel responded 500 in 7.9191 ms
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method154(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:08:41.705 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method154(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 23:12:20.311 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-22 23:12:41.551 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-22 23:12:41.574 -03:00 [ERR] HTTP POST /api/sales responded 500 in 25.8674 ms
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method105(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:12:41.599 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method105(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 23:12:52.864 -03:00 [ERR] HTTP GET /api/sales/de12d140-ad4f-4620-b85b-693032d4ac43 responded 500 in 5.4704 ms
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method113(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:12:52.865 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method113(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 23:13:56.088 -03:00 [ERR] HTTP POST /api/sales responded 500 in 4.4392 ms
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method105(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:13:56.115 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method105(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 23:14:01.522 -03:00 [ERR] HTTP GET /api/sales/de12d140-ad4f-4620-b85b-693032d4ac43 responded 500 in 22.1055 ms
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method113(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:14:01.524 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method113(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-22 23:22:43.173 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-22 23:22:46.980 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-22 23:22:47.013 -03:00 [ERR] HTTP POST /api/sales responded 500 in 35.4690 ms
+System.InvalidOperationException: Unable to resolve service for type '_123Vendas.Vendas.Infra.Interface.Service.ISalesService' while attempting to activate '_123Vendas.Vendas.API.Controllers.SalesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method104(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:25:08.688 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-22 23:25:11.994 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-22 23:25:12.468 -03:00 [INF] HTTP POST /api/sales responded 400 in 472.1654 ms
+2024-09-22 23:25:29.917 -03:00 [INF] Recebida requisição para obter a venda "57486008-9296-4500-8fbb-9db99423bf0c"
+2024-09-22 23:25:31.421 -03:00 [INF] Buscando venda com número "57486008-9296-4500-8fbb-9db99423bf0c"
+2024-09-22 23:25:31.424 -03:00 [INF] Buscando a venda com número "57486008-9296-4500-8fbb-9db99423bf0c"
+2024-09-22 23:25:32.331 -03:00 [WRN] Venda com número "57486008-9296-4500-8fbb-9db99423bf0c" não foi encontrada
+2024-09-22 23:25:32.331 -03:00 [WRN] Venda com número "57486008-9296-4500-8fbb-9db99423bf0c" não encontrada
+2024-09-22 23:25:38.326 -03:00 [WRN] Venda "57486008-9296-4500-8fbb-9db99423bf0c" não encontrada
+2024-09-22 23:25:41.166 -03:00 [INF] HTTP GET /api/sales/57486008-9296-4500-8fbb-9db99423bf0c responded 404 in 26821.6271 ms
+2024-09-22 23:26:53.979 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-22 23:26:54.116 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-22 23:26:54.215 -03:00 [INF] Recebida requisição para cancelar venda com número "0903ce94-1ac2-489e-8bca-8ee95c16cd1f"
+2024-09-22 23:26:54.218 -03:00 [INF] Cancelando venda com número "0903ce94-1ac2-489e-8bca-8ee95c16cd1f"
+2024-09-22 23:26:54.220 -03:00 [INF] Buscando a venda com número "0903ce94-1ac2-489e-8bca-8ee95c16cd1f"
+2024-09-22 23:26:54.726 -03:00 [WRN] Venda com número "0903ce94-1ac2-489e-8bca-8ee95c16cd1f" não foi encontrada
+2024-09-22 23:26:54.726 -03:00 [WRN] Venda com número "0903ce94-1ac2-489e-8bca-8ee95c16cd1f" não encontrada para cancelamento
+2024-09-22 23:26:54.727 -03:00 [WRN] Erro ao cancelar venda com número "0903ce94-1ac2-489e-8bca-8ee95c16cd1f"
+System.InvalidOperationException: Venda com número 0903ce94-1ac2-489e-8bca-8ee95c16cd1f não encontrada.
+   at _123Vendas.Vendas.Service.Services.SalesService.CancelSaleAsync(Guid saleNumber) in C:\Projetos\123Vendas\123Vendas.Vendas.Service\Services\SalesService.cs:line 95
+   at _123Vendas.Vendas.API.Controllers.SalesController.CancelSale(Guid saleNumber) in C:\Projetos\123Vendas\123Vendas.Vendas.API\Controllers\SalesController.cs:line 73
+2024-09-22 23:26:54.815 -03:00 [INF] HTTP POST /api/sales/0903ce94-1ac2-489e-8bca-8ee95c16cd1f/cancel responded 404 in 699.8073 ms
+2024-09-22 23:26:54.948 -03:00 [INF] HTTP POST /api/sales responded 400 in 49.2194 ms
+2024-09-22 23:26:55.029 -03:00 [INF] HTTP POST /api/sales responded 400 in 10.2190 ms
+2024-09-22 23:26:55.034 -03:00 [INF] HTTP PUT /api/sales/6c4efc69-c095-48c8-9a3d-4bcb9d7875d8 responded 400 in 3.7488 ms
+2024-09-22 23:26:55.039 -03:00 [INF] HTTP POST /api/sales responded 400 in 0.7618 ms
+2024-09-22 23:26:55.044 -03:00 [INF] Recebida requisição para obter a venda "d7dcd0f8-4079-4787-aef6-e9dbc93fbe81"
+2024-09-22 23:26:55.045 -03:00 [INF] Buscando venda com número "d7dcd0f8-4079-4787-aef6-e9dbc93fbe81"
+2024-09-22 23:26:55.045 -03:00 [INF] Buscando a venda com número "d7dcd0f8-4079-4787-aef6-e9dbc93fbe81"
+2024-09-22 23:26:55.054 -03:00 [WRN] Venda com número "d7dcd0f8-4079-4787-aef6-e9dbc93fbe81" não foi encontrada
+2024-09-22 23:26:55.054 -03:00 [WRN] Venda com número "d7dcd0f8-4079-4787-aef6-e9dbc93fbe81" não encontrada
+2024-09-22 23:26:55.054 -03:00 [WRN] Venda "d7dcd0f8-4079-4787-aef6-e9dbc93fbe81" não encontrada
+2024-09-22 23:26:55.055 -03:00 [INF] HTTP GET /api/sales/d7dcd0f8-4079-4787-aef6-e9dbc93fbe81 responded 404 in 15.0142 ms
+2024-09-22 23:26:55.063 -03:00 [INF] Recebida requisição para obter a venda "cdf18893-75bd-454c-9d9e-3c0c334d6a89"
+2024-09-22 23:26:55.063 -03:00 [INF] Buscando venda com número "cdf18893-75bd-454c-9d9e-3c0c334d6a89"
+2024-09-22 23:26:55.063 -03:00 [INF] Buscando a venda com número "cdf18893-75bd-454c-9d9e-3c0c334d6a89"
+2024-09-22 23:26:55.098 -03:00 [WRN] Venda com número "cdf18893-75bd-454c-9d9e-3c0c334d6a89" não foi encontrada
+2024-09-22 23:26:55.098 -03:00 [WRN] Venda com número "cdf18893-75bd-454c-9d9e-3c0c334d6a89" não encontrada
+2024-09-22 23:26:55.098 -03:00 [WRN] Venda "cdf18893-75bd-454c-9d9e-3c0c334d6a89" não encontrada
+2024-09-22 23:26:55.099 -03:00 [INF] HTTP GET /api/sales/cdf18893-75bd-454c-9d9e-3c0c334d6a89 responded 404 in 36.6969 ms
+2024-09-22 23:26:55.106 -03:00 [INF] HTTP POST /api/sales responded 400 in 0.7893 ms
+2024-09-22 23:26:55.111 -03:00 [INF] Recebida requisição para cancelar item "921bfaaf-bc9a-4358-bd7c-919d6743d2d8" da venda com número "2301804f-8f67-49f1-a16b-2aa9dec194d1"
+2024-09-22 23:26:55.112 -03:00 [INF] Cancelando item da venda com número "2301804f-8f67-49f1-a16b-2aa9dec194d1"
+2024-09-22 23:26:55.113 -03:00 [INF] Buscando a venda com número "2301804f-8f67-49f1-a16b-2aa9dec194d1"
+2024-09-22 23:26:55.113 -03:00 [WRN] Venda com número "2301804f-8f67-49f1-a16b-2aa9dec194d1" não foi encontrada
+2024-09-22 23:26:55.113 -03:00 [WRN] Venda com número "2301804f-8f67-49f1-a16b-2aa9dec194d1" não encontrada para cancelamento de item
+2024-09-22 23:26:55.113 -03:00 [WRN] Erro ao cancelar item "921bfaaf-bc9a-4358-bd7c-919d6743d2d8" da venda "2301804f-8f67-49f1-a16b-2aa9dec194d1"
+System.InvalidOperationException: Venda com número 2301804f-8f67-49f1-a16b-2aa9dec194d1 não encontrada.
+   at _123Vendas.Vendas.Service.Services.SalesService.CancelSaleItemAsync(Guid saleNumber, Guid productId) in C:\Projetos\123Vendas\123Vendas.Vendas.Service\Services\SalesService.cs:line 115
+   at _123Vendas.Vendas.API.Controllers.SalesController.CancelSaleItem(Guid saleNumber, Guid productId) in C:\Projetos\123Vendas\123Vendas.Vendas.API\Controllers\SalesController.cs:line 96
+2024-09-22 23:26:55.114 -03:00 [INF] HTTP POST /api/sales/2301804f-8f67-49f1-a16b-2aa9dec194d1/items/921bfaaf-bc9a-4358-bd7c-919d6743d2d8/cancel responded 404 in 6.3431 ms
+2024-09-22 23:26:55.121 -03:00 [INF] HTTP POST /api/sales responded 400 in 0.8137 ms
+2024-09-22 23:26:55.123 -03:00 [INF] Recebida requisição para cancelar venda com número "7374a6a2-85a0-4b99-93da-7c9c060ade69"
+2024-09-22 23:26:55.123 -03:00 [INF] Cancelando venda com número "7374a6a2-85a0-4b99-93da-7c9c060ade69"
+2024-09-22 23:26:55.123 -03:00 [INF] Buscando a venda com número "7374a6a2-85a0-4b99-93da-7c9c060ade69"
+2024-09-22 23:26:55.124 -03:00 [WRN] Venda com número "7374a6a2-85a0-4b99-93da-7c9c060ade69" não foi encontrada
+2024-09-22 23:26:55.124 -03:00 [WRN] Venda com número "7374a6a2-85a0-4b99-93da-7c9c060ade69" não encontrada para cancelamento
+2024-09-22 23:26:55.124 -03:00 [WRN] Erro ao cancelar venda com número "7374a6a2-85a0-4b99-93da-7c9c060ade69"
+System.InvalidOperationException: Venda com número 7374a6a2-85a0-4b99-93da-7c9c060ade69 não encontrada.
+   at _123Vendas.Vendas.Service.Services.SalesService.CancelSaleAsync(Guid saleNumber) in C:\Projetos\123Vendas\123Vendas.Vendas.Service\Services\SalesService.cs:line 95
+   at _123Vendas.Vendas.API.Controllers.SalesController.CancelSale(Guid saleNumber) in C:\Projetos\123Vendas\123Vendas.Vendas.API\Controllers\SalesController.cs:line 73
+2024-09-22 23:26:55.125 -03:00 [INF] HTTP POST /api/sales/7374a6a2-85a0-4b99-93da-7c9c060ade69/cancel responded 404 in 2.0918 ms
+2024-09-22 23:26:55.136 -03:00 [INF] HTTP POST /api/sales responded 400 in 0.8782 ms
+2024-09-22 23:26:55.141 -03:00 [INF] Recebida requisição para deletar a venda "55a2040d-3487-4c6f-b0ec-301570f0fe18"
+2024-09-22 23:26:55.142 -03:00 [INF] Deletando venda com número "55a2040d-3487-4c6f-b0ec-301570f0fe18"
+2024-09-22 23:26:55.142 -03:00 [INF] Buscando a venda com número "55a2040d-3487-4c6f-b0ec-301570f0fe18"
+2024-09-22 23:26:55.142 -03:00 [WRN] Venda com número "55a2040d-3487-4c6f-b0ec-301570f0fe18" não foi encontrada
+2024-09-22 23:26:55.142 -03:00 [WRN] Venda com número "55a2040d-3487-4c6f-b0ec-301570f0fe18" não encontrada para exclusão
+2024-09-22 23:26:55.143 -03:00 [ERR] HTTP DELETE /api/sales/55a2040d-3487-4c6f-b0ec-301570f0fe18 responded 500 in 6.9052 ms
+System.InvalidOperationException: Venda com número 55a2040d-3487-4c6f-b0ec-301570f0fe18 não encontrada.
+   at _123Vendas.Vendas.Service.Services.SalesService.DeleteSaleAsync(Guid saleNumber) in C:\Projetos\123Vendas\123Vendas.Vendas.Service\Services\SalesService.cs:line 79
+   at _123Vendas.Vendas.API.Controllers.SalesController.DeleteSale(Guid saleNumber) in C:\Projetos\123Vendas\123Vendas.Vendas.API\Controllers\SalesController.cs:line 62
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:26:55.195 -03:00 [INF] HTTP POST /api/sales responded 400 in 1.4163 ms
+2024-09-22 23:26:55.199 -03:00 [INF] HTTP PUT /api/sales/ebbf9cad-8b51-46b7-8887-d3848c79e4ee responded 400 in 1.5005 ms
+2024-09-22 23:26:55.211 -03:00 [INF] Recebida requisição para cancelar item "c0981d30-d45e-439c-9a07-6d8ab5f33ad1" da venda com número "089aacf3-2cbd-405a-a271-80d523baf812"
+2024-09-22 23:26:55.212 -03:00 [INF] Cancelando item da venda com número "089aacf3-2cbd-405a-a271-80d523baf812"
+2024-09-22 23:26:55.212 -03:00 [INF] Buscando a venda com número "089aacf3-2cbd-405a-a271-80d523baf812"
+2024-09-22 23:26:55.212 -03:00 [WRN] Venda com número "089aacf3-2cbd-405a-a271-80d523baf812" não foi encontrada
+2024-09-22 23:26:55.213 -03:00 [WRN] Venda com número "089aacf3-2cbd-405a-a271-80d523baf812" não encontrada para cancelamento de item
+2024-09-22 23:26:55.213 -03:00 [WRN] Erro ao cancelar item "c0981d30-d45e-439c-9a07-6d8ab5f33ad1" da venda "089aacf3-2cbd-405a-a271-80d523baf812"
+System.InvalidOperationException: Venda com número 089aacf3-2cbd-405a-a271-80d523baf812 não encontrada.
+   at _123Vendas.Vendas.Service.Services.SalesService.CancelSaleItemAsync(Guid saleNumber, Guid productId) in C:\Projetos\123Vendas\123Vendas.Vendas.Service\Services\SalesService.cs:line 115
+   at _123Vendas.Vendas.API.Controllers.SalesController.CancelSaleItem(Guid saleNumber, Guid productId) in C:\Projetos\123Vendas\123Vendas.Vendas.API\Controllers\SalesController.cs:line 96
+2024-09-22 23:26:55.214 -03:00 [INF] HTTP POST /api/sales/089aacf3-2cbd-405a-a271-80d523baf812/items/c0981d30-d45e-439c-9a07-6d8ab5f33ad1/cancel responded 404 in 2.6379 ms
+2024-09-22 23:27:28.383 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-22 23:27:35.749 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-22 23:27:35.966 -03:00 [INF] HTTP POST /api/sales responded 400 in 214.4792 ms
+2024-09-22 23:33:05.824 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-22 23:33:10.357 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-22 23:33:10.572 -03:00 [INF] HTTP POST /api/sales responded 400 in 208.4074 ms
+2024-09-22 23:33:24.761 -03:00 [INF] Recebida requisição para obter a venda "930c30eb-342c-4f50-a6b7-d313ce736af1"
+2024-09-22 23:33:24.765 -03:00 [INF] Buscando venda com número "930c30eb-342c-4f50-a6b7-d313ce736af1"
+2024-09-22 23:33:24.767 -03:00 [INF] Buscando a venda com número "930c30eb-342c-4f50-a6b7-d313ce736af1"
+2024-09-22 23:33:25.332 -03:00 [WRN] Venda com número "930c30eb-342c-4f50-a6b7-d313ce736af1" não foi encontrada
+2024-09-22 23:33:25.332 -03:00 [WRN] Venda com número "930c30eb-342c-4f50-a6b7-d313ce736af1" não encontrada
+2024-09-22 23:33:25.332 -03:00 [WRN] Venda "930c30eb-342c-4f50-a6b7-d313ce736af1" não encontrada
+2024-09-22 23:33:25.335 -03:00 [INF] HTTP GET /api/sales/930c30eb-342c-4f50-a6b7-d313ce736af1 responded 404 in 13864.4287 ms
+2024-09-22 23:35:53.882 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-22 23:36:01.925 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-22 23:36:02.147 -03:00 [INF] HTTP POST /api/sales responded 400 in 216.2956 ms
+2024-09-22 23:36:05.420 -03:00 [INF] Recebida requisição para obter a venda "055a67b0-1454-4137-ad52-f4957d376501"
+2024-09-22 23:36:06.011 -03:00 [INF] Buscando venda com número "055a67b0-1454-4137-ad52-f4957d376501"
+2024-09-22 23:36:06.014 -03:00 [INF] Buscando a venda com número "055a67b0-1454-4137-ad52-f4957d376501"
+2024-09-22 23:36:06.627 -03:00 [WRN] Venda com número "055a67b0-1454-4137-ad52-f4957d376501" não foi encontrada
+2024-09-22 23:36:06.627 -03:00 [WRN] Venda com número "055a67b0-1454-4137-ad52-f4957d376501" não encontrada
+2024-09-22 23:36:12.281 -03:00 [WRN] Venda "055a67b0-1454-4137-ad52-f4957d376501" não encontrada
+2024-09-22 23:36:13.342 -03:00 [INF] HTTP GET /api/sales/055a67b0-1454-4137-ad52-f4957d376501 responded 404 in 9024.7331 ms
+2024-09-22 23:41:10.813 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-22 23:42:06.006 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-22 23:42:15.769 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-22 23:42:19.485 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:42:20.113 -03:00 [INF] Criando venda com número "ae4aa3e1-f1d7-4436-8741-b43fbec6debf"
+2024-09-22 23:42:20.119 -03:00 [INF] Criando nova venda para o cliente 7e25fbc3-fff5-429d-84b1-90953b750d60
+2024-09-22 23:42:20.712 -03:00 [INF] Venda "ae4aa3e1-f1d7-4436-8741-b43fbec6debf" criada com sucesso
+2024-09-22 23:42:20.714 -03:00 [INF] Event: Sale Created. SaleId: "ae4aa3e1-f1d7-4436-8741-b43fbec6debf", Date: "2024-09-22T23:42:20.7135437-03:00", TotalAmount: 25.91
+2024-09-22 23:42:20.715 -03:00 [INF] Venda "ae4aa3e1-f1d7-4436-8741-b43fbec6debf" criada com sucesso
+2024-09-22 23:42:34.226 -03:00 [INF] HTTP POST /api/sales responded 201 in 18449.9648 ms
+2024-09-22 23:42:36.853 -03:00 [INF] Recebida requisição para obter a venda "ae4aa3e1-f1d7-4436-8741-b43fbec6debf"
+2024-09-22 23:42:37.659 -03:00 [INF] Buscando venda com número "ae4aa3e1-f1d7-4436-8741-b43fbec6debf"
+2024-09-22 23:42:37.662 -03:00 [INF] Buscando a venda com número "ae4aa3e1-f1d7-4436-8741-b43fbec6debf"
+2024-09-22 23:42:37.918 -03:00 [INF] Venda "ae4aa3e1-f1d7-4436-8741-b43fbec6debf" encontrada com sucesso
+2024-09-22 23:42:48.094 -03:00 [INF] HTTP GET /api/sales/ae4aa3e1-f1d7-4436-8741-b43fbec6debf responded 200 in 13289.7067 ms
+2024-09-22 23:42:59.451 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-22 23:42:59.588 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-22 23:42:59.680 -03:00 [INF] Recebida requisição para cancelar venda com número "24fd4e06-8702-47b3-bb2f-a502f2f86875"
+2024-09-22 23:42:59.683 -03:00 [INF] Cancelando venda com número "24fd4e06-8702-47b3-bb2f-a502f2f86875"
+2024-09-22 23:42:59.684 -03:00 [INF] Buscando a venda com número "24fd4e06-8702-47b3-bb2f-a502f2f86875"
+2024-09-22 23:43:00.170 -03:00 [WRN] Venda com número "24fd4e06-8702-47b3-bb2f-a502f2f86875" não foi encontrada
+2024-09-22 23:43:00.170 -03:00 [WRN] Venda com número "24fd4e06-8702-47b3-bb2f-a502f2f86875" não encontrada para cancelamento
+2024-09-22 23:43:00.171 -03:00 [WRN] Erro ao cancelar venda com número "24fd4e06-8702-47b3-bb2f-a502f2f86875"
+System.InvalidOperationException: Venda com número 24fd4e06-8702-47b3-bb2f-a502f2f86875 não encontrada.
+   at _123Vendas.Vendas.Service.Services.SalesService.CancelSaleAsync(Guid saleNumber) in C:\Projetos\123Vendas\123Vendas.Vendas.Service\Services\SalesService.cs:line 95
+   at _123Vendas.Vendas.API.Controllers.SalesController.CancelSale(Guid saleNumber) in C:\Projetos\123Vendas\123Vendas.Vendas.API\Controllers\SalesController.cs:line 73
+2024-09-22 23:43:00.186 -03:00 [INF] HTTP POST /api/sales/24fd4e06-8702-47b3-bb2f-a502f2f86875/cancel responded 404 in 600.1662 ms
+2024-09-22 23:43:00.312 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:43:00.313 -03:00 [INF] Criando venda com número "ae61e825-b1ef-4540-862b-db3f2cfde688"
+2024-09-22 23:43:00.313 -03:00 [INF] Criando nova venda para o cliente d40e4395-08e5-4e9a-9e59-32490bbc0175
+2024-09-22 23:43:00.445 -03:00 [INF] Venda "ae61e825-b1ef-4540-862b-db3f2cfde688" criada com sucesso
+2024-09-22 23:43:00.445 -03:00 [INF] Event: Sale Created. SaleId: "ae61e825-b1ef-4540-862b-db3f2cfde688", Date: "2024-09-22T23:43:00.4454032-03:00", TotalAmount: 15.44
+2024-09-22 23:43:00.446 -03:00 [INF] Venda "ae61e825-b1ef-4540-862b-db3f2cfde688" criada com sucesso
+2024-09-22 23:43:00.461 -03:00 [INF] HTTP POST /api/sales responded 201 in 186.1213 ms
+2024-09-22 23:43:00.476 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:43:00.476 -03:00 [INF] Criando venda com número "4c1792cf-129f-4490-a499-efe8be25369c"
+2024-09-22 23:43:00.476 -03:00 [INF] Criando nova venda para o cliente 3ab6c3ec-eba6-43dd-9113-e159a6e7ca26
+2024-09-22 23:43:00.509 -03:00 [INF] Venda "4c1792cf-129f-4490-a499-efe8be25369c" criada com sucesso
+2024-09-22 23:43:00.509 -03:00 [INF] Event: Sale Created. SaleId: "4c1792cf-129f-4490-a499-efe8be25369c", Date: "2024-09-22T23:43:00.5092303-03:00", TotalAmount: 32.67
+2024-09-22 23:43:00.509 -03:00 [INF] Venda "4c1792cf-129f-4490-a499-efe8be25369c" criada com sucesso
+2024-09-22 23:43:00.510 -03:00 [INF] HTTP POST /api/sales responded 201 in 37.4340 ms
+2024-09-22 23:43:00.540 -03:00 [INF] HTTP PUT /api/sales/4c1792cf-129f-4490-a499-efe8be25369c responded 400 in 28.7806 ms
+2024-09-22 23:43:00.556 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:43:00.556 -03:00 [INF] Criando venda com número "72633b31-d30c-4238-bc14-045b8e53fd9d"
+2024-09-22 23:43:00.556 -03:00 [INF] Criando nova venda para o cliente 404a030c-0ef0-41ef-8647-a39ea3259289
+2024-09-22 23:43:00.557 -03:00 [INF] Venda "72633b31-d30c-4238-bc14-045b8e53fd9d" criada com sucesso
+2024-09-22 23:43:00.557 -03:00 [INF] Event: Sale Created. SaleId: "72633b31-d30c-4238-bc14-045b8e53fd9d", Date: "2024-09-22T23:43:00.5572157-03:00", TotalAmount: 62.78
+2024-09-22 23:43:00.557 -03:00 [INF] Venda "72633b31-d30c-4238-bc14-045b8e53fd9d" criada com sucesso
+2024-09-22 23:43:00.557 -03:00 [INF] HTTP POST /api/sales responded 201 in 2.3559 ms
+2024-09-22 23:43:00.562 -03:00 [INF] Recebida requisição para obter a venda "72633b31-d30c-4238-bc14-045b8e53fd9d"
+2024-09-22 23:43:00.563 -03:00 [INF] Buscando venda com número "72633b31-d30c-4238-bc14-045b8e53fd9d"
+2024-09-22 23:43:00.563 -03:00 [INF] Buscando a venda com número "72633b31-d30c-4238-bc14-045b8e53fd9d"
+2024-09-22 23:43:00.575 -03:00 [INF] Venda "72633b31-d30c-4238-bc14-045b8e53fd9d" encontrada com sucesso
+2024-09-22 23:43:00.575 -03:00 [INF] HTTP GET /api/sales/72633b31-d30c-4238-bc14-045b8e53fd9d responded 200 in 16.5793 ms
+2024-09-22 23:43:00.582 -03:00 [INF] Recebida requisição para obter a venda "155380a5-d28f-4bb7-bbb0-1d19006999ff"
+2024-09-22 23:43:00.582 -03:00 [INF] Buscando venda com número "155380a5-d28f-4bb7-bbb0-1d19006999ff"
+2024-09-22 23:43:00.582 -03:00 [INF] Buscando a venda com número "155380a5-d28f-4bb7-bbb0-1d19006999ff"
+2024-09-22 23:43:00.582 -03:00 [WRN] Venda com número "155380a5-d28f-4bb7-bbb0-1d19006999ff" não foi encontrada
+2024-09-22 23:43:00.582 -03:00 [WRN] Venda com número "155380a5-d28f-4bb7-bbb0-1d19006999ff" não encontrada
+2024-09-22 23:43:00.582 -03:00 [WRN] Venda "155380a5-d28f-4bb7-bbb0-1d19006999ff" não encontrada
+2024-09-22 23:43:00.584 -03:00 [INF] HTTP GET /api/sales/155380a5-d28f-4bb7-bbb0-1d19006999ff responded 404 in 2.3862 ms
+2024-09-22 23:43:00.593 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:43:00.593 -03:00 [INF] Criando venda com número "2f605346-c576-4ed5-a140-02ba3e33d94b"
+2024-09-22 23:43:00.593 -03:00 [INF] Criando nova venda para o cliente bf0d4b0e-6d9f-4809-bed1-6342969e9e2a
+2024-09-22 23:43:00.594 -03:00 [INF] Venda "2f605346-c576-4ed5-a140-02ba3e33d94b" criada com sucesso
+2024-09-22 23:43:00.594 -03:00 [INF] Event: Sale Created. SaleId: "2f605346-c576-4ed5-a140-02ba3e33d94b", Date: "2024-09-22T23:43:00.5941147-03:00", TotalAmount: 15.97
+2024-09-22 23:43:00.594 -03:00 [INF] Venda "2f605346-c576-4ed5-a140-02ba3e33d94b" criada com sucesso
+2024-09-22 23:43:00.594 -03:00 [INF] HTTP POST /api/sales responded 201 in 2.3626 ms
+2024-09-22 23:43:00.600 -03:00 [INF] Recebida requisição para cancelar item "08aa0f67-f2f5-4971-a488-56b7fe547baa" da venda com número "2f605346-c576-4ed5-a140-02ba3e33d94b"
+2024-09-22 23:43:00.601 -03:00 [INF] Cancelando item da venda com número "2f605346-c576-4ed5-a140-02ba3e33d94b"
+2024-09-22 23:43:00.601 -03:00 [INF] Buscando a venda com número "2f605346-c576-4ed5-a140-02ba3e33d94b"
+2024-09-22 23:43:00.602 -03:00 [WRN] Produto com ID "08aa0f67-f2f5-4971-a488-56b7fe547baa" não encontrado na venda "2f605346-c576-4ed5-a140-02ba3e33d94b"
+2024-09-22 23:43:00.602 -03:00 [WRN] Erro ao cancelar item "08aa0f67-f2f5-4971-a488-56b7fe547baa" da venda "2f605346-c576-4ed5-a140-02ba3e33d94b"
+System.InvalidOperationException: Produto com ID 08aa0f67-f2f5-4971-a488-56b7fe547baa não encontrado na venda.
+   at _123Vendas.Vendas.Service.Services.SalesService.CancelSaleItemAsync(Guid saleNumber, Guid productId) in C:\Projetos\123Vendas\123Vendas.Vendas.Service\Services\SalesService.cs:line 122
+   at _123Vendas.Vendas.API.Controllers.SalesController.CancelSaleItem(Guid saleNumber, Guid productId) in C:\Projetos\123Vendas\123Vendas.Vendas.API\Controllers\SalesController.cs:line 96
+2024-09-22 23:43:00.603 -03:00 [INF] HTTP POST /api/sales/2f605346-c576-4ed5-a140-02ba3e33d94b/items/08aa0f67-f2f5-4971-a488-56b7fe547baa/cancel responded 404 in 6.6374 ms
+2024-09-22 23:43:00.709 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:43:00.709 -03:00 [INF] Criando venda com número "859aca64-24d2-4473-af11-0af18a4010ed"
+2024-09-22 23:43:00.709 -03:00 [INF] Criando nova venda para o cliente bc23a6a5-6e47-490c-941b-dd24e626c283
+2024-09-22 23:43:00.710 -03:00 [INF] Venda "859aca64-24d2-4473-af11-0af18a4010ed" criada com sucesso
+2024-09-22 23:43:00.710 -03:00 [INF] Event: Sale Created. SaleId: "859aca64-24d2-4473-af11-0af18a4010ed", Date: "2024-09-22T23:43:00.7102628-03:00", TotalAmount: 29.17
+2024-09-22 23:43:00.710 -03:00 [INF] Venda "859aca64-24d2-4473-af11-0af18a4010ed" criada com sucesso
+2024-09-22 23:43:00.711 -03:00 [INF] HTTP POST /api/sales responded 201 in 2.3199 ms
+2024-09-22 23:43:00.712 -03:00 [INF] Recebida requisição para cancelar venda com número "859aca64-24d2-4473-af11-0af18a4010ed"
+2024-09-22 23:43:00.712 -03:00 [INF] Cancelando venda com número "859aca64-24d2-4473-af11-0af18a4010ed"
+2024-09-22 23:43:00.712 -03:00 [INF] Buscando a venda com número "859aca64-24d2-4473-af11-0af18a4010ed"
+2024-09-22 23:43:00.714 -03:00 [INF] Atualizando venda "859aca64-24d2-4473-af11-0af18a4010ed"
+2024-09-22 23:43:00.717 -03:00 [INF] Venda "859aca64-24d2-4473-af11-0af18a4010ed" atualizada com sucesso
+2024-09-22 23:43:00.717 -03:00 [INF] Event: Sale Canceled. SaleId: "859aca64-24d2-4473-af11-0af18a4010ed", Date: "2024-09-22T23:43:00.7172686-03:00"
+2024-09-22 23:43:00.717 -03:00 [INF] Venda "859aca64-24d2-4473-af11-0af18a4010ed" cancelada com sucesso
+2024-09-22 23:43:00.717 -03:00 [INF] Venda "859aca64-24d2-4473-af11-0af18a4010ed" cancelada com sucesso
+2024-09-22 23:43:00.717 -03:00 [INF] HTTP POST /api/sales/859aca64-24d2-4473-af11-0af18a4010ed/cancel responded 200 in 5.6424 ms
+2024-09-22 23:43:00.779 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:43:00.780 -03:00 [INF] Criando venda com número "f41f2153-e955-4083-9e38-39e8d1695720"
+2024-09-22 23:43:00.780 -03:00 [INF] Criando nova venda para o cliente 23545314-8f6f-402e-af99-25854078d99d
+2024-09-22 23:43:00.781 -03:00 [INF] Venda "f41f2153-e955-4083-9e38-39e8d1695720" criada com sucesso
+2024-09-22 23:43:00.781 -03:00 [INF] Event: Sale Created. SaleId: "f41f2153-e955-4083-9e38-39e8d1695720", Date: "2024-09-22T23:43:00.7813439-03:00", TotalAmount: 6.11
+2024-09-22 23:43:00.781 -03:00 [INF] Venda "f41f2153-e955-4083-9e38-39e8d1695720" criada com sucesso
+2024-09-22 23:43:00.782 -03:00 [INF] HTTP POST /api/sales responded 201 in 3.1848 ms
+2024-09-22 23:43:00.788 -03:00 [INF] Recebida requisição para deletar a venda "f41f2153-e955-4083-9e38-39e8d1695720"
+2024-09-22 23:43:00.789 -03:00 [INF] Deletando venda com número "f41f2153-e955-4083-9e38-39e8d1695720"
+2024-09-22 23:43:00.790 -03:00 [INF] Buscando a venda com número "f41f2153-e955-4083-9e38-39e8d1695720"
+2024-09-22 23:43:00.791 -03:00 [INF] Buscando a venda com número "f41f2153-e955-4083-9e38-39e8d1695720"
+2024-09-22 23:43:00.792 -03:00 [INF] Deletando venda "f41f2153-e955-4083-9e38-39e8d1695720"
+2024-09-22 23:43:00.805 -03:00 [INF] Venda "f41f2153-e955-4083-9e38-39e8d1695720" deletada com sucesso
+2024-09-22 23:43:00.805 -03:00 [INF] Venda "f41f2153-e955-4083-9e38-39e8d1695720" deletada com sucesso
+2024-09-22 23:43:00.805 -03:00 [INF] HTTP DELETE /api/sales/f41f2153-e955-4083-9e38-39e8d1695720 responded 204 in 21.7345 ms
+2024-09-22 23:43:00.811 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:43:00.811 -03:00 [INF] Criando venda com número "dfda1cf1-1a28-4762-9d18-21ef42e47f85"
+2024-09-22 23:43:00.811 -03:00 [INF] Criando nova venda para o cliente fa55a4f2-7200-4a32-a3b3-1661772a12f3
+2024-09-22 23:43:00.812 -03:00 [INF] Venda "dfda1cf1-1a28-4762-9d18-21ef42e47f85" criada com sucesso
+2024-09-22 23:43:00.812 -03:00 [INF] Event: Sale Created. SaleId: "dfda1cf1-1a28-4762-9d18-21ef42e47f85", Date: "2024-09-22T23:43:00.8124705-03:00", TotalAmount: 9.59
+2024-09-22 23:43:00.812 -03:00 [INF] Venda "dfda1cf1-1a28-4762-9d18-21ef42e47f85" criada com sucesso
+2024-09-22 23:43:00.813 -03:00 [INF] HTTP POST /api/sales responded 201 in 1.8120 ms
+2024-09-22 23:43:00.814 -03:00 [INF] HTTP PUT /api/sales/dfda1cf1-1a28-4762-9d18-21ef42e47f85 responded 400 in 0.4227 ms
+2024-09-22 23:43:00.829 -03:00 [INF] Recebida requisição para cancelar item "7aefb04d-4560-43a5-a3bc-6b3a38102766" da venda com número "cd1c5c17-030a-487e-818b-0f71dda9c061"
+2024-09-22 23:43:00.829 -03:00 [INF] Cancelando item da venda com número "cd1c5c17-030a-487e-818b-0f71dda9c061"
+2024-09-22 23:43:00.829 -03:00 [INF] Buscando a venda com número "cd1c5c17-030a-487e-818b-0f71dda9c061"
+2024-09-22 23:43:00.830 -03:00 [WRN] Venda com número "cd1c5c17-030a-487e-818b-0f71dda9c061" não foi encontrada
+2024-09-22 23:43:00.830 -03:00 [WRN] Venda com número "cd1c5c17-030a-487e-818b-0f71dda9c061" não encontrada para cancelamento de item
+2024-09-22 23:43:00.830 -03:00 [WRN] Erro ao cancelar item "7aefb04d-4560-43a5-a3bc-6b3a38102766" da venda "cd1c5c17-030a-487e-818b-0f71dda9c061"
+System.InvalidOperationException: Venda com número cd1c5c17-030a-487e-818b-0f71dda9c061 não encontrada.
+   at _123Vendas.Vendas.Service.Services.SalesService.CancelSaleItemAsync(Guid saleNumber, Guid productId) in C:\Projetos\123Vendas\123Vendas.Vendas.Service\Services\SalesService.cs:line 115
+   at _123Vendas.Vendas.API.Controllers.SalesController.CancelSaleItem(Guid saleNumber, Guid productId) in C:\Projetos\123Vendas\123Vendas.Vendas.API\Controllers\SalesController.cs:line 96
+2024-09-22 23:43:00.831 -03:00 [INF] HTTP POST /api/sales/cd1c5c17-030a-487e-818b-0f71dda9c061/items/7aefb04d-4560-43a5-a3bc-6b3a38102766/cancel responded 404 in 2.0918 ms
+2024-09-22 23:44:43.446 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-22 23:44:50.732 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-22 23:44:51.949 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:44:52.837 -03:00 [INF] Criando venda com número "94940c81-fbb1-4819-98d8-63f39b7afe4a"
+2024-09-22 23:44:52.846 -03:00 [INF] Criando nova venda para o cliente b94535cf-84db-4f7d-9a3f-c945fd2e148e
+2024-09-22 23:44:53.497 -03:00 [INF] Venda "94940c81-fbb1-4819-98d8-63f39b7afe4a" criada com sucesso
+2024-09-22 23:44:53.498 -03:00 [INF] Event: Sale Created. SaleId: "94940c81-fbb1-4819-98d8-63f39b7afe4a", Date: "2024-09-22T23:44:53.4979727-03:00", TotalAmount: 18.46
+2024-09-22 23:44:53.499 -03:00 [INF] Venda "94940c81-fbb1-4819-98d8-63f39b7afe4a" criada com sucesso
+2024-09-22 23:45:19.889 -03:00 [INF] HTTP POST /api/sales responded 201 in 29152.0773 ms
+2024-09-22 23:45:25.708 -03:00 [INF] Recebida requisição para cancelar venda com número "94940c81-fbb1-4819-98d8-63f39b7afe4a"
+2024-09-22 23:45:29.305 -03:00 [INF] Cancelando venda com número "94940c81-fbb1-4819-98d8-63f39b7afe4a"
+2024-09-22 23:45:30.576 -03:00 [INF] Buscando a venda com número "94940c81-fbb1-4819-98d8-63f39b7afe4a"
+2024-09-22 23:45:41.201 -03:00 [INF] Atualizando venda "94940c81-fbb1-4819-98d8-63f39b7afe4a"
+2024-09-22 23:45:41.214 -03:00 [INF] Venda "94940c81-fbb1-4819-98d8-63f39b7afe4a" atualizada com sucesso
+2024-09-22 23:45:56.139 -03:00 [INF] Event: Sale Canceled. SaleId: "94940c81-fbb1-4819-98d8-63f39b7afe4a", Date: "2024-09-22T23:45:51.1359970-03:00"
+2024-09-22 23:45:59.110 -03:00 [INF] Venda "94940c81-fbb1-4819-98d8-63f39b7afe4a" cancelada com sucesso
+2024-09-22 23:46:01.846 -03:00 [INF] Venda "94940c81-fbb1-4819-98d8-63f39b7afe4a" cancelada com sucesso
+2024-09-22 23:46:15.985 -03:00 [INF] HTTP POST /api/sales/94940c81-fbb1-4819-98d8-63f39b7afe4a/cancel responded 200 in 51343.4863 ms
+2024-09-22 23:47:15.292 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-22 23:47:15.495 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-22 23:47:15.614 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:47:15.615 -03:00 [INF] Criando venda com número "cc30f6cd-a738-4bb7-a5a9-195354402085"
+2024-09-22 23:47:15.618 -03:00 [INF] Criando nova venda para o cliente 930c6ba1-8937-4c47-b347-191ee6d88ca2
+2024-09-22 23:47:16.060 -03:00 [INF] Venda "cc30f6cd-a738-4bb7-a5a9-195354402085" criada com sucesso
+2024-09-22 23:47:16.061 -03:00 [INF] Event: Sale Created. SaleId: "cc30f6cd-a738-4bb7-a5a9-195354402085", Date: "2024-09-22T23:47:16.0612497-03:00", TotalAmount: 7.98
+2024-09-22 23:47:16.062 -03:00 [INF] Venda "cc30f6cd-a738-4bb7-a5a9-195354402085" criada com sucesso
+2024-09-22 23:47:16.082 -03:00 [INF] HTTP POST /api/sales responded 201 in 589.4965 ms
+2024-09-22 23:47:16.109 -03:00 [INF] Recebida requisição para cancelar venda com número "cc30f6cd-a738-4bb7-a5a9-195354402085"
+2024-09-22 23:47:16.110 -03:00 [INF] Cancelando venda com número "cc30f6cd-a738-4bb7-a5a9-195354402085"
+2024-09-22 23:47:16.111 -03:00 [INF] Buscando a venda com número "cc30f6cd-a738-4bb7-a5a9-195354402085"
+2024-09-22 23:47:16.292 -03:00 [INF] Atualizando venda "cc30f6cd-a738-4bb7-a5a9-195354402085"
+2024-09-22 23:47:16.294 -03:00 [INF] Venda "cc30f6cd-a738-4bb7-a5a9-195354402085" atualizada com sucesso
+2024-09-22 23:47:16.295 -03:00 [INF] Event: Sale Canceled. SaleId: "cc30f6cd-a738-4bb7-a5a9-195354402085", Date: "2024-09-22T23:47:16.2949552-03:00"
+2024-09-22 23:47:16.295 -03:00 [INF] Venda "cc30f6cd-a738-4bb7-a5a9-195354402085" cancelada com sucesso
+2024-09-22 23:47:16.295 -03:00 [INF] Venda "cc30f6cd-a738-4bb7-a5a9-195354402085" cancelada com sucesso
+2024-09-22 23:47:16.296 -03:00 [INF] HTTP POST /api/sales/cc30f6cd-a738-4bb7-a5a9-195354402085/cancel responded 200 in 207.0491 ms
+2024-09-22 23:48:18.040 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-22 23:48:26.177 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-22 23:48:27.320 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:48:28.005 -03:00 [INF] Criando venda com número "4cb68bc6-ce17-4308-bdcc-bdd6776f66c4"
+2024-09-22 23:48:28.011 -03:00 [INF] Criando nova venda para o cliente 3c76eb31-5cd1-4af5-b369-7b35d7fee4d3
+2024-09-22 23:48:28.573 -03:00 [INF] Venda "4cb68bc6-ce17-4308-bdcc-bdd6776f66c4" criada com sucesso
+2024-09-22 23:48:28.574 -03:00 [INF] Event: Sale Created. SaleId: "4cb68bc6-ce17-4308-bdcc-bdd6776f66c4", Date: "2024-09-22T23:48:28.5741626-03:00", TotalAmount: 90.20
+2024-09-22 23:48:28.575 -03:00 [INF] Venda "4cb68bc6-ce17-4308-bdcc-bdd6776f66c4" criada com sucesso
+2024-09-22 23:48:59.145 -03:00 [INF] HTTP POST /api/sales responded 201 in 32964.5729 ms
+2024-09-22 23:49:08.363 -03:00 [INF] HTTP PUT /api/sales/4cb68bc6-ce17-4308-bdcc-bdd6776f66c4 responded 400 in 46.2034 ms
+2024-09-22 23:50:24.201 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-22 23:50:24.417 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-22 23:50:24.539 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:50:24.540 -03:00 [INF] Criando venda com número "fc9b4f9f-62bd-46de-b85f-b33f056828c4"
+2024-09-22 23:50:24.543 -03:00 [INF] Criando nova venda para o cliente 6c251446-07a5-4e6d-b543-668761e475e1
+2024-09-22 23:50:25.042 -03:00 [INF] Venda "fc9b4f9f-62bd-46de-b85f-b33f056828c4" criada com sucesso
+2024-09-22 23:50:25.044 -03:00 [INF] Event: Sale Created. SaleId: "fc9b4f9f-62bd-46de-b85f-b33f056828c4", Date: "2024-09-22T23:50:25.0434557-03:00", TotalAmount: 0.81
+2024-09-22 23:50:25.045 -03:00 [INF] Venda "fc9b4f9f-62bd-46de-b85f-b33f056828c4" criada com sucesso
+2024-09-22 23:50:25.070 -03:00 [INF] HTTP POST /api/sales responded 201 in 654.5001 ms
+2024-09-22 23:50:25.099 -03:00 [INF] Recebida requisição para atualizar a venda "fc9b4f9f-62bd-46de-b85f-b33f056828c4"
+2024-09-22 23:50:25.100 -03:00 [INF] Atualizando venda com número "fc9b4f9f-62bd-46de-b85f-b33f056828c4"
+2024-09-22 23:50:25.102 -03:00 [INF] Buscando a venda com número "fc9b4f9f-62bd-46de-b85f-b33f056828c4"
+2024-09-22 23:50:25.287 -03:00 [INF] Atualizando venda "fc9b4f9f-62bd-46de-b85f-b33f056828c4"
+2024-09-22 23:50:25.325 -03:00 [ERR] HTTP PUT /api/sales/fc9b4f9f-62bd-46de-b85f-b33f056828c4 responded 500 in 247.5605 ms
+System.InvalidOperationException: The instance of entity type 'Sale' cannot be tracked because another instance with the same key value for {'SaleNumber'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at _123Vendas.Vendas.Data.Repository.SalesRepository.UpdateSaleAsync(Sale sale) in C:\Projetos\123Vendas\123Vendas.Vendas.Data\Repository\SalesRepository.cs:line 43
+   at _123Vendas.Vendas.Service.Services.SalesService.UpdateSaleAsync(Sale sale) in C:\Projetos\123Vendas\123Vendas.Vendas.Service\Services\SalesService.cs:line 63
+   at _123Vendas.Vendas.API.Controllers.SalesController.UpdateSale(Guid saleNumber, Sale sale) in C:\Projetos\123Vendas\123Vendas.Vendas.API\Controllers\SalesController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:50:33.776 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-22 23:50:33.922 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-22 23:50:34.017 -03:00 [INF] Recebida requisição para cancelar venda com número "8d694bf0-bb73-4e07-ae58-0753042e8817"
+2024-09-22 23:50:34.020 -03:00 [INF] Cancelando venda com número "8d694bf0-bb73-4e07-ae58-0753042e8817"
+2024-09-22 23:50:34.021 -03:00 [INF] Buscando a venda com número "8d694bf0-bb73-4e07-ae58-0753042e8817"
+2024-09-22 23:50:34.637 -03:00 [WRN] Venda com número "8d694bf0-bb73-4e07-ae58-0753042e8817" não foi encontrada
+2024-09-22 23:50:34.637 -03:00 [WRN] Venda com número "8d694bf0-bb73-4e07-ae58-0753042e8817" não encontrada para cancelamento
+2024-09-22 23:50:34.638 -03:00 [WRN] Erro ao cancelar venda com número "8d694bf0-bb73-4e07-ae58-0753042e8817"
+System.InvalidOperationException: Venda com número 8d694bf0-bb73-4e07-ae58-0753042e8817 não encontrada.
+   at _123Vendas.Vendas.Service.Services.SalesService.CancelSaleAsync(Guid saleNumber) in C:\Projetos\123Vendas\123Vendas.Vendas.Service\Services\SalesService.cs:line 95
+   at _123Vendas.Vendas.API.Controllers.SalesController.CancelSale(Guid saleNumber) in C:\Projetos\123Vendas\123Vendas.Vendas.API\Controllers\SalesController.cs:line 73
+2024-09-22 23:50:34.654 -03:00 [INF] HTTP POST /api/sales/8d694bf0-bb73-4e07-ae58-0753042e8817/cancel responded 404 in 733.7971 ms
+2024-09-22 23:50:34.774 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:50:34.775 -03:00 [INF] Criando venda com número "d1ef2e9c-df90-4d29-9d02-3dd3fd7b8b5b"
+2024-09-22 23:50:34.775 -03:00 [INF] Criando nova venda para o cliente 0d67ca69-0811-4408-ad9c-9769dfc8f688
+2024-09-22 23:50:34.901 -03:00 [INF] Venda "d1ef2e9c-df90-4d29-9d02-3dd3fd7b8b5b" criada com sucesso
+2024-09-22 23:50:34.902 -03:00 [INF] Event: Sale Created. SaleId: "d1ef2e9c-df90-4d29-9d02-3dd3fd7b8b5b", Date: "2024-09-22T23:50:34.9021846-03:00", TotalAmount: 33.89
+2024-09-22 23:50:34.903 -03:00 [INF] Venda "d1ef2e9c-df90-4d29-9d02-3dd3fd7b8b5b" criada com sucesso
+2024-09-22 23:50:34.917 -03:00 [INF] HTTP POST /api/sales responded 201 in 175.0292 ms
+2024-09-22 23:50:34.931 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:50:34.931 -03:00 [INF] Criando venda com número "0172cc78-0bed-448a-a365-5a705918c55e"
+2024-09-22 23:50:34.931 -03:00 [INF] Criando nova venda para o cliente 464ef373-3087-4d17-8603-a5c2b39e0705
+2024-09-22 23:50:34.963 -03:00 [INF] Venda "0172cc78-0bed-448a-a365-5a705918c55e" criada com sucesso
+2024-09-22 23:50:34.963 -03:00 [INF] Event: Sale Created. SaleId: "0172cc78-0bed-448a-a365-5a705918c55e", Date: "2024-09-22T23:50:34.9635001-03:00", TotalAmount: 65.65
+2024-09-22 23:50:34.963 -03:00 [INF] Venda "0172cc78-0bed-448a-a365-5a705918c55e" criada com sucesso
+2024-09-22 23:50:34.964 -03:00 [INF] HTTP POST /api/sales responded 201 in 36.5430 ms
+2024-09-22 23:50:34.989 -03:00 [INF] HTTP PUT /api/sales/0172cc78-0bed-448a-a365-5a705918c55e responded 400 in 23.3607 ms
+2024-09-22 23:50:35.004 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:50:35.005 -03:00 [INF] Criando venda com número "45e4612f-cf79-451d-b98f-af0645edc3ac"
+2024-09-22 23:50:35.005 -03:00 [INF] Criando nova venda para o cliente 06ac9493-af1d-4039-ad5b-e2ef59ad4b7f
+2024-09-22 23:50:35.005 -03:00 [INF] Venda "45e4612f-cf79-451d-b98f-af0645edc3ac" criada com sucesso
+2024-09-22 23:50:35.005 -03:00 [INF] Event: Sale Created. SaleId: "45e4612f-cf79-451d-b98f-af0645edc3ac", Date: "2024-09-22T23:50:35.0059313-03:00", TotalAmount: 49.26
+2024-09-22 23:50:35.006 -03:00 [INF] Venda "45e4612f-cf79-451d-b98f-af0645edc3ac" criada com sucesso
+2024-09-22 23:50:35.006 -03:00 [INF] HTTP POST /api/sales responded 201 in 2.2265 ms
+2024-09-22 23:50:35.012 -03:00 [INF] Recebida requisição para obter a venda "45e4612f-cf79-451d-b98f-af0645edc3ac"
+2024-09-22 23:50:35.012 -03:00 [INF] Buscando venda com número "45e4612f-cf79-451d-b98f-af0645edc3ac"
+2024-09-22 23:50:35.013 -03:00 [INF] Buscando a venda com número "45e4612f-cf79-451d-b98f-af0645edc3ac"
+2024-09-22 23:50:35.026 -03:00 [INF] Venda "45e4612f-cf79-451d-b98f-af0645edc3ac" encontrada com sucesso
+2024-09-22 23:50:35.026 -03:00 [INF] HTTP GET /api/sales/45e4612f-cf79-451d-b98f-af0645edc3ac responded 200 in 19.1670 ms
+2024-09-22 23:50:35.033 -03:00 [INF] Recebida requisição para obter a venda "ca79f6a3-d6dc-44c6-b65f-a417b8464401"
+2024-09-22 23:50:35.034 -03:00 [INF] Buscando venda com número "ca79f6a3-d6dc-44c6-b65f-a417b8464401"
+2024-09-22 23:50:35.034 -03:00 [INF] Buscando a venda com número "ca79f6a3-d6dc-44c6-b65f-a417b8464401"
+2024-09-22 23:50:35.034 -03:00 [WRN] Venda com número "ca79f6a3-d6dc-44c6-b65f-a417b8464401" não foi encontrada
+2024-09-22 23:50:35.034 -03:00 [WRN] Venda com número "ca79f6a3-d6dc-44c6-b65f-a417b8464401" não encontrada
+2024-09-22 23:50:35.034 -03:00 [WRN] Venda "ca79f6a3-d6dc-44c6-b65f-a417b8464401" não encontrada
+2024-09-22 23:50:35.035 -03:00 [INF] HTTP GET /api/sales/ca79f6a3-d6dc-44c6-b65f-a417b8464401 responded 404 in 2.2756 ms
+2024-09-22 23:50:35.044 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:50:35.044 -03:00 [INF] Criando venda com número "a758e01c-96ee-41f9-84af-ed6a37120f80"
+2024-09-22 23:50:35.044 -03:00 [INF] Criando nova venda para o cliente dd1597e3-7905-41e1-9ffb-0b1ea46af63a
+2024-09-22 23:50:35.045 -03:00 [INF] Venda "a758e01c-96ee-41f9-84af-ed6a37120f80" criada com sucesso
+2024-09-22 23:50:35.045 -03:00 [INF] Event: Sale Created. SaleId: "a758e01c-96ee-41f9-84af-ed6a37120f80", Date: "2024-09-22T23:50:35.0455304-03:00", TotalAmount: 95.19
+2024-09-22 23:50:35.045 -03:00 [INF] Venda "a758e01c-96ee-41f9-84af-ed6a37120f80" criada com sucesso
+2024-09-22 23:50:35.046 -03:00 [INF] HTTP POST /api/sales responded 201 in 2.2177 ms
+2024-09-22 23:50:35.052 -03:00 [INF] Recebida requisição para cancelar item "eec929d0-21ce-4cd0-97ea-f83d4c2dddf7" da venda com número "a758e01c-96ee-41f9-84af-ed6a37120f80"
+2024-09-22 23:50:35.053 -03:00 [INF] Cancelando item da venda com número "a758e01c-96ee-41f9-84af-ed6a37120f80"
+2024-09-22 23:50:35.053 -03:00 [INF] Buscando a venda com número "a758e01c-96ee-41f9-84af-ed6a37120f80"
+2024-09-22 23:50:35.055 -03:00 [WRN] Produto com ID "eec929d0-21ce-4cd0-97ea-f83d4c2dddf7" não encontrado na venda "a758e01c-96ee-41f9-84af-ed6a37120f80"
+2024-09-22 23:50:35.055 -03:00 [WRN] Erro ao cancelar item "eec929d0-21ce-4cd0-97ea-f83d4c2dddf7" da venda "a758e01c-96ee-41f9-84af-ed6a37120f80"
+System.InvalidOperationException: Produto com ID eec929d0-21ce-4cd0-97ea-f83d4c2dddf7 não encontrado na venda.
+   at _123Vendas.Vendas.Service.Services.SalesService.CancelSaleItemAsync(Guid saleNumber, Guid productId) in C:\Projetos\123Vendas\123Vendas.Vendas.Service\Services\SalesService.cs:line 122
+   at _123Vendas.Vendas.API.Controllers.SalesController.CancelSaleItem(Guid saleNumber, Guid productId) in C:\Projetos\123Vendas\123Vendas.Vendas.API\Controllers\SalesController.cs:line 96
+2024-09-22 23:50:35.056 -03:00 [INF] HTTP POST /api/sales/a758e01c-96ee-41f9-84af-ed6a37120f80/items/eec929d0-21ce-4cd0-97ea-f83d4c2dddf7/cancel responded 404 in 8.4929 ms
+2024-09-22 23:50:35.171 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:50:35.172 -03:00 [INF] Criando venda com número "2f99194e-45f3-48d8-a8c4-f94f74a4a525"
+2024-09-22 23:50:35.172 -03:00 [INF] Criando nova venda para o cliente 77240737-2b91-462c-98d3-d6118dce17bc
+2024-09-22 23:50:35.172 -03:00 [INF] Venda "2f99194e-45f3-48d8-a8c4-f94f74a4a525" criada com sucesso
+2024-09-22 23:50:35.172 -03:00 [INF] Event: Sale Created. SaleId: "2f99194e-45f3-48d8-a8c4-f94f74a4a525", Date: "2024-09-22T23:50:35.1729551-03:00", TotalAmount: 8.73
+2024-09-22 23:50:35.173 -03:00 [INF] Venda "2f99194e-45f3-48d8-a8c4-f94f74a4a525" criada com sucesso
+2024-09-22 23:50:35.173 -03:00 [INF] HTTP POST /api/sales responded 201 in 2.2383 ms
+2024-09-22 23:50:35.174 -03:00 [INF] Recebida requisição para cancelar venda com número "2f99194e-45f3-48d8-a8c4-f94f74a4a525"
+2024-09-22 23:50:35.174 -03:00 [INF] Cancelando venda com número "2f99194e-45f3-48d8-a8c4-f94f74a4a525"
+2024-09-22 23:50:35.175 -03:00 [INF] Buscando a venda com número "2f99194e-45f3-48d8-a8c4-f94f74a4a525"
+2024-09-22 23:50:35.176 -03:00 [INF] Atualizando venda "2f99194e-45f3-48d8-a8c4-f94f74a4a525"
+2024-09-22 23:50:35.179 -03:00 [INF] Venda "2f99194e-45f3-48d8-a8c4-f94f74a4a525" atualizada com sucesso
+2024-09-22 23:50:35.179 -03:00 [INF] Event: Sale Canceled. SaleId: "2f99194e-45f3-48d8-a8c4-f94f74a4a525", Date: "2024-09-22T23:50:35.1793628-03:00"
+2024-09-22 23:50:35.179 -03:00 [INF] Venda "2f99194e-45f3-48d8-a8c4-f94f74a4a525" cancelada com sucesso
+2024-09-22 23:50:35.179 -03:00 [INF] Venda "2f99194e-45f3-48d8-a8c4-f94f74a4a525" cancelada com sucesso
+2024-09-22 23:50:35.179 -03:00 [INF] HTTP POST /api/sales/2f99194e-45f3-48d8-a8c4-f94f74a4a525/cancel responded 200 in 5.3865 ms
+2024-09-22 23:50:35.187 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:50:35.188 -03:00 [INF] Criando venda com número "17881421-a33f-47e3-85e2-9e1cd1ce0e7c"
+2024-09-22 23:50:35.188 -03:00 [INF] Criando nova venda para o cliente c17aaf98-9b2c-4382-87e8-cb23baf4a3b4
+2024-09-22 23:50:35.188 -03:00 [INF] Venda "17881421-a33f-47e3-85e2-9e1cd1ce0e7c" criada com sucesso
+2024-09-22 23:50:35.188 -03:00 [INF] Event: Sale Created. SaleId: "17881421-a33f-47e3-85e2-9e1cd1ce0e7c", Date: "2024-09-22T23:50:35.1887320-03:00", TotalAmount: 52.12
+2024-09-22 23:50:35.188 -03:00 [INF] Venda "17881421-a33f-47e3-85e2-9e1cd1ce0e7c" criada com sucesso
+2024-09-22 23:50:35.189 -03:00 [INF] HTTP POST /api/sales responded 201 in 1.9300 ms
+2024-09-22 23:50:35.194 -03:00 [INF] Recebida requisição para deletar a venda "17881421-a33f-47e3-85e2-9e1cd1ce0e7c"
+2024-09-22 23:50:35.194 -03:00 [INF] Deletando venda com número "17881421-a33f-47e3-85e2-9e1cd1ce0e7c"
+2024-09-22 23:50:35.195 -03:00 [INF] Buscando a venda com número "17881421-a33f-47e3-85e2-9e1cd1ce0e7c"
+2024-09-22 23:50:35.196 -03:00 [INF] Buscando a venda com número "17881421-a33f-47e3-85e2-9e1cd1ce0e7c"
+2024-09-22 23:50:35.196 -03:00 [INF] Deletando venda "17881421-a33f-47e3-85e2-9e1cd1ce0e7c"
+2024-09-22 23:50:35.206 -03:00 [INF] Venda "17881421-a33f-47e3-85e2-9e1cd1ce0e7c" deletada com sucesso
+2024-09-22 23:50:35.206 -03:00 [INF] Venda "17881421-a33f-47e3-85e2-9e1cd1ce0e7c" deletada com sucesso
+2024-09-22 23:50:35.207 -03:00 [INF] HTTP DELETE /api/sales/17881421-a33f-47e3-85e2-9e1cd1ce0e7c responded 204 in 16.5816 ms
+2024-09-22 23:50:35.213 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:50:35.213 -03:00 [INF] Criando venda com número "09f94283-9a13-4ed3-ab0d-b17cac904163"
+2024-09-22 23:50:35.213 -03:00 [INF] Criando nova venda para o cliente bef6d605-e31b-446c-a824-5956a146213c
+2024-09-22 23:50:35.214 -03:00 [INF] Venda "09f94283-9a13-4ed3-ab0d-b17cac904163" criada com sucesso
+2024-09-22 23:50:35.214 -03:00 [INF] Event: Sale Created. SaleId: "09f94283-9a13-4ed3-ab0d-b17cac904163", Date: "2024-09-22T23:50:35.2144269-03:00", TotalAmount: 83.36
+2024-09-22 23:50:35.214 -03:00 [INF] Venda "09f94283-9a13-4ed3-ab0d-b17cac904163" criada com sucesso
+2024-09-22 23:50:35.215 -03:00 [INF] HTTP POST /api/sales responded 201 in 1.8622 ms
+2024-09-22 23:50:35.217 -03:00 [INF] Recebida requisição para atualizar a venda "09f94283-9a13-4ed3-ab0d-b17cac904163"
+2024-09-22 23:50:35.218 -03:00 [INF] Atualizando venda com número "09f94283-9a13-4ed3-ab0d-b17cac904163"
+2024-09-22 23:50:35.218 -03:00 [INF] Buscando a venda com número "09f94283-9a13-4ed3-ab0d-b17cac904163"
+2024-09-22 23:50:35.219 -03:00 [INF] Atualizando venda "09f94283-9a13-4ed3-ab0d-b17cac904163"
+2024-09-22 23:50:35.221 -03:00 [ERR] HTTP PUT /api/sales/09f94283-9a13-4ed3-ab0d-b17cac904163 responded 500 in 5.4496 ms
+System.InvalidOperationException: The instance of entity type 'Sale' cannot be tracked because another instance with the same key value for {'SaleNumber'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at _123Vendas.Vendas.Data.Repository.SalesRepository.UpdateSaleAsync(Sale sale) in C:\Projetos\123Vendas\123Vendas.Vendas.Data\Repository\SalesRepository.cs:line 43
+   at _123Vendas.Vendas.Service.Services.SalesService.UpdateSaleAsync(Sale sale) in C:\Projetos\123Vendas\123Vendas.Vendas.Service\Services\SalesService.cs:line 63
+   at _123Vendas.Vendas.API.Controllers.SalesController.UpdateSale(Guid saleNumber, Sale sale) in C:\Projetos\123Vendas\123Vendas.Vendas.API\Controllers\SalesController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:50:35.238 -03:00 [INF] Recebida requisição para cancelar item "e086f00f-d01a-4017-9c5b-a5439e407b3a" da venda com número "4be53369-fd05-46b9-89a2-acc4286ae967"
+2024-09-22 23:50:35.238 -03:00 [INF] Cancelando item da venda com número "4be53369-fd05-46b9-89a2-acc4286ae967"
+2024-09-22 23:50:35.238 -03:00 [INF] Buscando a venda com número "4be53369-fd05-46b9-89a2-acc4286ae967"
+2024-09-22 23:50:35.238 -03:00 [WRN] Venda com número "4be53369-fd05-46b9-89a2-acc4286ae967" não foi encontrada
+2024-09-22 23:50:35.238 -03:00 [WRN] Venda com número "4be53369-fd05-46b9-89a2-acc4286ae967" não encontrada para cancelamento de item
+2024-09-22 23:50:35.239 -03:00 [WRN] Erro ao cancelar item "e086f00f-d01a-4017-9c5b-a5439e407b3a" da venda "4be53369-fd05-46b9-89a2-acc4286ae967"
+System.InvalidOperationException: Venda com número 4be53369-fd05-46b9-89a2-acc4286ae967 não encontrada.
+   at _123Vendas.Vendas.Service.Services.SalesService.CancelSaleItemAsync(Guid saleNumber, Guid productId) in C:\Projetos\123Vendas\123Vendas.Vendas.Service\Services\SalesService.cs:line 115
+   at _123Vendas.Vendas.API.Controllers.SalesController.CancelSaleItem(Guid saleNumber, Guid productId) in C:\Projetos\123Vendas\123Vendas.Vendas.API\Controllers\SalesController.cs:line 96
+2024-09-22 23:50:35.239 -03:00 [INF] HTTP POST /api/sales/4be53369-fd05-46b9-89a2-acc4286ae967/items/e086f00f-d01a-4017-9c5b-a5439e407b3a/cancel responded 404 in 2.2698 ms
+2024-09-22 23:51:37.358 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-22 23:51:42.104 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-22 23:51:43.395 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:51:43.914 -03:00 [INF] Criando venda com número "3721790f-ebcc-4620-9b9e-0b1089de1c4f"
+2024-09-22 23:51:43.920 -03:00 [INF] Criando nova venda para o cliente de1809e6-8240-408d-9394-7f4fb458c2c9
+2024-09-22 23:51:44.489 -03:00 [INF] Venda "3721790f-ebcc-4620-9b9e-0b1089de1c4f" criada com sucesso
+2024-09-22 23:51:44.490 -03:00 [INF] Event: Sale Created. SaleId: "3721790f-ebcc-4620-9b9e-0b1089de1c4f", Date: "2024-09-22T23:51:44.4901181-03:00", TotalAmount: 37.35
+2024-09-22 23:51:44.491 -03:00 [INF] Venda "3721790f-ebcc-4620-9b9e-0b1089de1c4f" criada com sucesso
+2024-09-22 23:51:48.008 -03:00 [INF] HTTP POST /api/sales responded 201 in 5900.9010 ms
+2024-09-22 23:52:09.109 -03:00 [INF] Recebida requisição para atualizar a venda "3721790f-ebcc-4620-9b9e-0b1089de1c4f"
+2024-09-22 23:52:10.026 -03:00 [INF] Atualizando venda com número "3721790f-ebcc-4620-9b9e-0b1089de1c4f"
+2024-09-22 23:52:10.028 -03:00 [INF] Buscando a venda com número "3721790f-ebcc-4620-9b9e-0b1089de1c4f"
+2024-09-22 23:52:10.245 -03:00 [INF] Atualizando venda "3721790f-ebcc-4620-9b9e-0b1089de1c4f"
+2024-09-22 23:52:10.440 -03:00 [ERR] HTTP PUT /api/sales/3721790f-ebcc-4620-9b9e-0b1089de1c4f responded 500 in 8599.9997 ms
+System.InvalidOperationException: The instance of entity type 'Sale' cannot be tracked because another instance with the same key value for {'SaleNumber'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at _123Vendas.Vendas.Data.Repository.SalesRepository.UpdateSaleAsync(Sale sale) in C:\Projetos\123Vendas\123Vendas.Vendas.Data\Repository\SalesRepository.cs:line 43
+   at _123Vendas.Vendas.Service.Services.SalesService.UpdateSaleAsync(Sale sale) in C:\Projetos\123Vendas\123Vendas.Vendas.Service\Services\SalesService.cs:line 63
+   at _123Vendas.Vendas.API.Controllers.SalesController.UpdateSale(Guid saleNumber, Sale sale) in C:\Projetos\123Vendas\123Vendas.Vendas.API\Controllers\SalesController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:52:34.045 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-22 23:52:36.550 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-22 23:52:38.202 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:52:38.559 -03:00 [INF] Criando venda com número "28a0ef5c-eaf8-453c-9114-17ec2fc69fad"
+2024-09-22 23:52:38.563 -03:00 [INF] Criando nova venda para o cliente 84728387-bdb9-42d7-838a-fc755cfa6936
+2024-09-22 23:52:39.140 -03:00 [INF] Venda "28a0ef5c-eaf8-453c-9114-17ec2fc69fad" criada com sucesso
+2024-09-22 23:52:39.142 -03:00 [INF] Event: Sale Created. SaleId: "28a0ef5c-eaf8-453c-9114-17ec2fc69fad", Date: "2024-09-22T23:52:39.1413060-03:00", TotalAmount: 16.75
+2024-09-22 23:52:39.143 -03:00 [INF] Venda "28a0ef5c-eaf8-453c-9114-17ec2fc69fad" criada com sucesso
+2024-09-22 23:52:50.039 -03:00 [INF] HTTP POST /api/sales responded 201 in 13485.0860 ms
+2024-09-22 23:52:58.773 -03:00 [INF] Recebida requisição para atualizar a venda "28a0ef5c-eaf8-453c-9114-17ec2fc69fad"
+2024-09-22 23:53:02.181 -03:00 [INF] Atualizando venda com número "28a0ef5c-eaf8-453c-9114-17ec2fc69fad"
+2024-09-22 23:53:04.755 -03:00 [INF] Buscando a venda com número "28a0ef5c-eaf8-453c-9114-17ec2fc69fad"
+2024-09-22 23:53:21.539 -03:00 [INF] Atualizando venda "28a0ef5c-eaf8-453c-9114-17ec2fc69fad"
+2024-09-22 23:53:24.618 -03:00 [ERR] HTTP PUT /api/sales/28a0ef5c-eaf8-453c-9114-17ec2fc69fad responded 500 in 30666.0815 ms
+System.InvalidOperationException: The instance of entity type 'Sale' cannot be tracked because another instance with the same key value for {'SaleNumber'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at _123Vendas.Vendas.Data.Repository.SalesRepository.UpdateSaleAsync(Sale sale) in C:\Projetos\123Vendas\123Vendas.Vendas.Data\Repository\SalesRepository.cs:line 43
+   at _123Vendas.Vendas.Service.Services.SalesService.UpdateSaleAsync(Sale sale) in C:\Projetos\123Vendas\123Vendas.Vendas.Service\Services\SalesService.cs:line 63
+   at _123Vendas.Vendas.API.Controllers.SalesController.UpdateSale(Guid saleNumber, Sale sale) in C:\Projetos\123Vendas\123Vendas.Vendas.API\Controllers\SalesController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:54:50.483 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-22 23:54:52.285 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-22 23:54:52.488 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:54:52.490 -03:00 [INF] Criando venda com número "89a9c206-4b94-4c57-94ab-eef9cf844ac1"
+2024-09-22 23:54:52.493 -03:00 [INF] Criando nova venda para o cliente d6f849a4-8fc9-4446-b40d-6babc3db12e8
+2024-09-22 23:54:53.113 -03:00 [INF] Venda "89a9c206-4b94-4c57-94ab-eef9cf844ac1" criada com sucesso
+2024-09-22 23:54:53.114 -03:00 [INF] Event: Sale Created. SaleId: "89a9c206-4b94-4c57-94ab-eef9cf844ac1", Date: "2024-09-22T23:54:53.1138288-03:00", TotalAmount: 97.00
+2024-09-22 23:54:53.115 -03:00 [INF] Venda "89a9c206-4b94-4c57-94ab-eef9cf844ac1" criada com sucesso
+2024-09-22 23:54:53.149 -03:00 [INF] HTTP POST /api/sales responded 201 in 865.0276 ms
+2024-09-22 23:54:54.742 -03:00 [INF] Recebida requisição para atualizar a venda "89a9c206-4b94-4c57-94ab-eef9cf844ac1"
+2024-09-22 23:54:54.743 -03:00 [INF] Atualizando venda com número "89a9c206-4b94-4c57-94ab-eef9cf844ac1"
+2024-09-22 23:54:54.744 -03:00 [INF] Buscando a venda com número "89a9c206-4b94-4c57-94ab-eef9cf844ac1"
+2024-09-22 23:54:58.524 -03:00 [INF] Atualizando venda "89a9c206-4b94-4c57-94ab-eef9cf844ac1"
+2024-09-22 23:55:05.504 -03:00 [ERR] HTTP PUT /api/sales/89a9c206-4b94-4c57-94ab-eef9cf844ac1 responded 500 in 10770.9563 ms
+System.InvalidOperationException: The instance of entity type 'Sale' cannot be tracked because another instance with the same key value for {'SaleNumber'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at _123Vendas.Vendas.Data.Repository.SalesRepository.UpdateSaleAsync(Sale sale) in C:\Projetos\123Vendas\123Vendas.Vendas.Data\Repository\SalesRepository.cs:line 43
+   at _123Vendas.Vendas.Service.Services.SalesService.UpdateSaleAsync(Sale sale) in C:\Projetos\123Vendas\123Vendas.Vendas.Service\Services\SalesService.cs:line 63
+   at _123Vendas.Vendas.API.Controllers.SalesController.UpdateSale(Guid saleNumber, Sale sale) in C:\Projetos\123Vendas\123Vendas.Vendas.API\Controllers\SalesController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:57:37.538 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-22 23:57:40.370 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-22 23:57:40.549 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:57:40.551 -03:00 [INF] Criando venda com número "f9daa1cf-655d-4a63-a383-c106345ed359"
+2024-09-22 23:57:40.555 -03:00 [INF] Criando nova venda para o cliente 5dcba7f4-70be-43ed-adb1-d48f9a0db69b
+2024-09-22 23:57:41.075 -03:00 [INF] Venda "f9daa1cf-655d-4a63-a383-c106345ed359" criada com sucesso
+2024-09-22 23:57:41.076 -03:00 [INF] Event: Sale Created. SaleId: "f9daa1cf-655d-4a63-a383-c106345ed359", Date: "2024-09-22T23:57:41.0760053-03:00", TotalAmount: 25.09
+2024-09-22 23:57:41.078 -03:00 [INF] Venda "f9daa1cf-655d-4a63-a383-c106345ed359" criada com sucesso
+2024-09-22 23:57:41.115 -03:00 [INF] HTTP POST /api/sales responded 201 in 741.7648 ms
+2024-09-22 23:57:42.500 -03:00 [INF] Recebida requisição para atualizar a venda "f9daa1cf-655d-4a63-a383-c106345ed359"
+2024-09-22 23:57:42.501 -03:00 [INF] Atualizando venda com número "f9daa1cf-655d-4a63-a383-c106345ed359"
+2024-09-22 23:57:42.503 -03:00 [INF] Buscando a venda com número "f9daa1cf-655d-4a63-a383-c106345ed359"
+2024-09-22 23:57:46.511 -03:00 [INF] Atualizando venda "f9daa1cf-655d-4a63-a383-c106345ed359"
+2024-09-22 23:57:49.336 -03:00 [ERR] HTTP PUT /api/sales/f9daa1cf-655d-4a63-a383-c106345ed359 responded 500 in 6876.3076 ms
+System.InvalidOperationException: The instance of entity type 'Sale' cannot be tracked because another instance with the same key value for {'SaleNumber'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Attach(TEntity entity)
+   at _123Vendas.Vendas.Data.Repository.SalesRepository.UpdateSaleAsync(Sale sale) in C:\Projetos\123Vendas\123Vendas.Vendas.Data\Repository\SalesRepository.cs:line 43
+   at _123Vendas.Vendas.Service.Services.SalesService.UpdateSaleAsync(Sale sale) in C:\Projetos\123Vendas\123Vendas.Vendas.Service\Services\SalesService.cs:line 63
+   at _123Vendas.Vendas.API.Controllers.SalesController.UpdateSale(Guid saleNumber, Sale sale) in C:\Projetos\123Vendas\123Vendas.Vendas.API\Controllers\SalesController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-09-22 23:58:24.292 -03:00 [INF] Iniciando a aplicação de vendas...
+2024-09-22 23:58:24.493 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-09-22 23:58:24.610 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-22 23:58:24.611 -03:00 [INF] Criando venda com número "544061c0-f3b9-44a7-be06-eb3205447b8b"
+2024-09-22 23:58:24.614 -03:00 [INF] Criando nova venda para o cliente 09eb3411-e5f4-458b-9e1b-b688e68c2697
+2024-09-22 23:58:25.068 -03:00 [INF] Venda "544061c0-f3b9-44a7-be06-eb3205447b8b" criada com sucesso
+2024-09-22 23:58:25.069 -03:00 [INF] Event: Sale Created. SaleId: "544061c0-f3b9-44a7-be06-eb3205447b8b", Date: "2024-09-22T23:58:25.0692297-03:00", TotalAmount: 22.74
+2024-09-22 23:58:25.070 -03:00 [INF] Venda "544061c0-f3b9-44a7-be06-eb3205447b8b" criada com sucesso
+2024-09-22 23:58:25.090 -03:00 [INF] HTTP POST /api/sales responded 201 in 598.9469 ms
+2024-09-22 23:58:25.121 -03:00 [INF] Recebida requisição para atualizar a venda "544061c0-f3b9-44a7-be06-eb3205447b8b"
+2024-09-22 23:58:25.121 -03:00 [INF] Atualizando venda com número "544061c0-f3b9-44a7-be06-eb3205447b8b"
+2024-09-22 23:58:25.122 -03:00 [INF] Atualizando venda "544061c0-f3b9-44a7-be06-eb3205447b8b"
+2024-09-22 23:58:25.152 -03:00 [INF] Venda "544061c0-f3b9-44a7-be06-eb3205447b8b" atualizada com sucesso
+2024-09-22 23:58:25.153 -03:00 [INF] Event: Sale Updated. SaleId: "544061c0-f3b9-44a7-be06-eb3205447b8b", Date: "2024-09-22T23:58:25.1528645-03:00", New Total: 38.92
+2024-09-22 23:58:25.153 -03:00 [INF] Venda "544061c0-f3b9-44a7-be06-eb3205447b8b" atualizada com sucesso
+2024-09-22 23:58:25.153 -03:00 [INF] HTTP PUT /api/sales/544061c0-f3b9-44a7-be06-eb3205447b8b responded 204 in 55.9910 ms

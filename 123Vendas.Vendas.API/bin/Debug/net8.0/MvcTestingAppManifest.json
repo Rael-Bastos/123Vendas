@@ -1,0 +1,6 @@
+{
+  "123Vendas.Vendas.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Projetos\\123Vendas\\123Vendas.Vendas.Data",
+  "123Vendas.Vendas.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Projetos\\123Vendas\\123Vendas.Vendas.Infra",
+  "123Vendas.Vendas.IoC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Projetos\\123Vendas\\123Vendas.Vendas.IoC",
+  "123Vendas.Vendas.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Projetos\\123Vendas\\123Vendas.Vendas.Service"
+}
